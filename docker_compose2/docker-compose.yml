@@ -1,0 +1,30 @@
+version: '3'
+services:
+  Bazarr:
+    image: lscr.io/linuxserver/bazarr:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Paris
+      - UMASK_SET=022
+    volumes:
+      - ./bazarr/config:/config
+    ports:
+      - 6767:6767
+    restart: unless-stopped
+  Prowlarr:
+    image: lscr.io/linuxserver/prowlarr:develop
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Paris
+      - UMASK_SET=022
+    volumes:
+      - ./prowlarr/config:/config
+    ports:
+      - 9696:9696
+    restart: unless-stopped
+networks: 
+  default: 
+    external: 
+      name: docker-shared-network 
