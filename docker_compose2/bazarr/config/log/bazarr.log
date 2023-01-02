@@ -128,3 +128,41 @@
 02/01/2023 17:20:43|ERROR   |root                            |Error trying to get releases from Github. Http error.|'Traceback (most recent call last):\n  File "/app/bazarr/bin/bazarr/app/check_update.py", line 23, in check_releases\n    r.raise_for_status()\n  File "/app/bazarr/bin/bazarr/../libs/requests/models.py", line 1021, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/morpheus65535/Bazarr/releases?per_page=100'|
 02/01/2023 17:20:48|ERROR   |root                            |Error trying to get releases from Github. Http error.|'Traceback (most recent call last):\n  File "/app/bazarr/bin/bazarr/app/check_update.py", line 23, in check_releases\n    r.raise_for_status()\n  File "/app/bazarr/bin/bazarr/../libs/requests/models.py", line 1021, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/morpheus65535/Bazarr/releases?per_page=100'|
 02/01/2023 17:20:53|ERROR   |root                            |Error trying to get releases from Github. Http error.|'Traceback (most recent call last):\n  File "/app/bazarr/bin/bazarr/app/check_update.py", line 23, in check_releases\n    r.raise_for_status()\n  File "/app/bazarr/bin/bazarr/../libs/requests/models.py", line 1021, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/morpheus65535/Bazarr/releases?per_page=100'|
+02/01/2023 17:30:20|ERROR   |root                            |Error trying to get releases from Github. Http error.|'Traceback (most recent call last):\n  File "/app/bazarr/bin/bazarr/app/check_update.py", line 23, in check_releases\n    r.raise_for_status()\n  File "/app/bazarr/bin/bazarr/../libs/requests/models.py", line 1021, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/morpheus65535/Bazarr/releases?per_page=100'|
+02/01/2023 17:30:22|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+02/01/2023 17:30:22|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+02/01/2023 17:30:22|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+02/01/2023 17:30:22|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|
+02/01/2023 17:30:22|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+02/01/2023 18:34:56|ERROR   |root                            |Error trying to get releases from Github. Http error.|'Traceback (most recent call last):\n  File "/app/bazarr/bin/bazarr/app/check_update.py", line 23, in check_releases\n    r.raise_for_status()\n  File "/app/bazarr/bin/bazarr/../libs/requests/models.py", line 1021, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/morpheus65535/Bazarr/releases?per_page=100'|
+02/01/2023 18:34:58|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+02/01/2023 18:34:58|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+02/01/2023 18:34:58|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+02/01/2023 18:34:58|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|
+02/01/2023 18:34:58|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+02/01/2023 18:57:13|ERROR   |root                            |Error trying to get releases from Github. Http error.|'Traceback (most recent call last):\n  File "/app/bazarr/bin/bazarr/app/check_update.py", line 23, in check_releases\n    r.raise_for_status()\n  File "/app/bazarr/bin/bazarr/../libs/requests/models.py", line 1021, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/morpheus65535/Bazarr/releases?per_page=100'|
+02/01/2023 18:57:15|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+02/01/2023 18:57:15|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+02/01/2023 18:57:15|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+02/01/2023 18:57:15|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|
+02/01/2023 18:57:15|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+02/01/2023 19:05:06|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+02/01/2023 19:05:06|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+02/01/2023 19:05:06|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+02/01/2023 19:05:06|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|
+02/01/2023 19:05:06|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+02/01/2023 19:06:16|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+02/01/2023 19:06:16|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+02/01/2023 19:06:16|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+02/01/2023 19:06:16|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|
+02/01/2023 19:06:16|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+02/01/2023 19:11:05|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+02/01/2023 19:11:05|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+02/01/2023 19:11:05|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+02/01/2023 19:11:06|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|
+02/01/2023 19:11:06|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+02/01/2023 19:15:24|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+02/01/2023 19:15:24|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+02/01/2023 19:15:24|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+02/01/2023 19:15:24|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|
+02/01/2023 19:15:24|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|

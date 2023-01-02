@@ -46,6 +46,11 @@ services:
       - URL=projectdocker.duckdns.org
       - VALIDATION=duckdns
       - DUCKDNSTOKEN=${DUCKDNSTOKEN}
+      - SUBDOMAINS=wildcard
+      - EXTRA_DOMAINS=
+      - DNSPLUGIN=duckdns
+      - EMAIL=
+      - STAGING=
     networks:
       - docker-shared-network
     restart: unless-stopped
