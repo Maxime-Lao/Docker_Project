@@ -24,7 +24,7 @@
  },
  "plex": {
   "name": "Maxime network",
-  "ip": "172.24.0.4",
+  "ip": "plex",
   "port": 32400,
   "useSsl": false,
   "libraries": [
@@ -33,14 +33,14 @@
     "name": "Films",
     "enabled": true,
     "type": "movie",
-    "lastScan": 1672659600070
+    "lastScan": 1672679700026
    },
    {
     "id": "2",
     "name": "Séries TV",
     "enabled": true,
     "type": "show",
-    "lastScan": 1672659600074
+    "lastScan": 1672679700030
    }
   ],
   "machineId": "fb685177d8f6bb83de49fedfebd2ed47642b5881"
@@ -54,8 +54,8 @@
    "apiKey": "a87ae9e6ea39416aa07bcc235f62d66a",
    "useSsl": false,
    "baseUrl": "",
-   "activeProfileId": 4,
-   "activeProfileName": "HD-1080p",
+   "activeProfileId": 7,
+   "activeProfileName": "FR + 1080p/4K (PAS REMUX)",
    "activeDirectory": "/movies",
    "is4k": true,
    "minimumAvailability": "announced",
@@ -74,9 +74,9 @@
    "apiKey": "3edb11638bfa4b36a6ed7e4064256795",
    "useSsl": false,
    "baseUrl": "",
-   "activeProfileId": 4,
-   "activeLanguageProfileId": 1,
-   "activeProfileName": "HD-1080p",
+   "activeProfileId": 7,
+   "activeLanguageProfileId": 3,
+   "activeProfileName": "1080p/4K (PAS REMUX)",
    "activeDirectory": "/tv",
    "tags": [],
    "animeTags": [],

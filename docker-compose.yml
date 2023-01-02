@@ -4,8 +4,8 @@ services:
     image: lscr.io/linuxserver/plex:latest
     container_name: plex
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=${PUID}
+      - PGID=${PGID}
       - VERSION=docker
     volumes:
       - ./plex/config:/config
@@ -20,9 +20,9 @@ services:
     image: lscr.io/linuxserver/overseerr:latest
     container_name: overseerr
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/Paris
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
     volumes:
       - ./overseerr/config:/config
     ports:
@@ -34,11 +34,9 @@ services:
     image: lscr.io/linuxserver/radarr:latest
     container_name: radarr
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/Paris
-      - PROFILE_NAME=FR
-      - RESOLUTION_PROFILE=1080p
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
     volumes:
       - ./radarr/config:/config
       - ./radarr/movies:/movies
@@ -50,12 +48,9 @@ services:
   Sonarr:
     image: lscr.io/linuxserver/sonarr:latest
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/Paris
-      - UMASK_SET=022
-      - PROFILE_NAME=FR
-      - RESOLUTION_PROFILE=1080p
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
     volumes:
       - ./sonarr/config:/config
       - ./sonarr/tv:/tv

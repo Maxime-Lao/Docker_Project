@@ -4,9 +4,9 @@ services:
     image: lscr.io/linuxserver/bazarr:latest
     container_name: bazarr
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/Paris
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
     volumes:
       - ./bazarr/config:/config
     ports:
@@ -18,13 +18,34 @@ services:
     image: lscr.io/linuxserver/prowlarr:develop
     container_name: prowlarr
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/Paris
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
     volumes:
       - ./prowlarr/config:/config
     ports:
       - 9696:9696
+    networks:
+      - docker-shared-network
+    restart: unless-stopped
+  swag:
+    image: linuxserver/swag
+    container_name: swag
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/letsencrypt:/config/letsencrypt
+      - /etc/swag:/config
+      - /etc/nginx:/config/nginx
+      - /etc/nzbget:/config/nzbget
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - URL=projectdocker.duckdns.org
+      - VALIDATION=duckdns
+      - DUCKDNSTOKEN=${DUCKDNSTOKEN}
     networks:
       - docker-shared-network
     restart: unless-stopped

@@ -1,0 +1,221 @@
+Jan 02, 2023 09:15:56.973 [0x7f3734c0cb00] INFO - Plex Media Scanner v1.30.0.6486-629d58034 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 02, 2023 09:15:56.973 [0x7f3734c0cb00] INFO - Linux version: 5.15.0-56-generic, language: en-US
+Jan 02, 2023 09:15:56.973 [0x7f3734c0cb00] INFO - Processor: 8-core 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+Jan 02, 2023 09:15:56.973 [0x7f3734c0cb00] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --item 1
+Jan 02, 2023 09:15:56.974 [0x7f3738588140] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Jan 02, 2023 09:15:57.034 [0x7f3738588140] DEBUG - Analyzing media parts for item 1 (Mixkit Three Boys Exploring a Haunted House on Halloween 44292 Medium): 1
+Jan 02, 2023 09:15:57.035 [0x7f3738588140] DEBUG - [ID 1] Media part analysis: /movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4
+Jan 02, 2023 09:15:57.035 [0x7f3738588140] DEBUG - [MI] Opening input file: "/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4"
+Jan 02, 2023 09:15:57.035 [0x7f3738588140] DEBUG - [FFMPEG] - Opening '/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4' for reading
+Jan 02, 2023 09:15:57.035 [0x7f3738588140] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 02, 2023 09:15:57.035 [0x7f3738588140] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jan 02, 2023 09:15:57.035 [0x7f3738588140] DEBUG - [FFMPEG] - ISO: File Type Major Brand: M4V 
+Jan 02, 2023 09:15:57.035 [0x7f3738588140] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jan 02, 2023 09:15:57.035 [0x7f3738588140] DEBUG - [FFMPEG] - Setting codecpar->delay to 1 for stream st: 0
+Jan 02, 2023 09:15:57.035 [0x7f3738588140] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3611 bytes read:32768 seeks:0 nb_streams:1
+Jan 02, 2023 09:15:57.036 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.036 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.036 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.036 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.036 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.036 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.036 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.036 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.036 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.036 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.036 [0x7f3738588140] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 02, 2023 09:15:57.037 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.037 [0x7f3738588140] DEBUG - [FFMPEG] - no picture 
+Jan 02, 2023 09:15:57.047 [0x7f3738588140] DEBUG - [FFMPEG] - All info found
+Jan 02, 2023 09:15:57.048 [0x7f3738588140] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 144864 bytes read:144864 seeks:0 frames:1
+Jan 02, 2023 09:15:57.048 [0x7f3738588140] DEBUG - [MI] Opening "/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4" for MP4 atom parsing
+Jan 02, 2023 09:15:57.048 [0x7f3738588140] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 28 at offset 0
+Jan 02, 2023 09:15:57.048 [0x7f3738588140] DEBUG - Mp4AtomParser: Found moov atom of size 3575 at offset 28
+Jan 02, 2023 09:15:57.048 [0x7f3738588140] DEBUG - Mp4AtomParser: Found trak atom of size 3432 at offset 171
+Jan 02, 2023 09:15:57.048 [0x7f3738588140] DEBUG - Mp4AtomParser: Found mdia atom of size 3332 at offset 271
+Jan 02, 2023 09:15:57.048 [0x7f3738588140] DEBUG - Mp4AtomParser: Found minf atom of size 3232 at offset 371
+Jan 02, 2023 09:15:57.048 [0x7f3738588140] DEBUG - Mp4AtomParser: Found stbl atom of size 3168 at offset 435
+Jan 02, 2023 09:15:57.048 [0x7f3738588140] DEBUG - [MI]  * 8c3cb6764990f4c79b0241b1aeaa36b073c86107 [mp4 h264/] Duration: 9425ms, 1280x720 (1.777778) 23.976fps, bitrate=2705kbps, audio channels=0, optimizedForStreaming=1 ("/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4")
+Jan 02, 2023 09:15:57.048 [0x7f3738588140] DEBUG - [MI] Chapters had generic titles, clearing.
+Jan 02, 2023 09:15:57.048 [0x7f3738588140] DEBUG - [MI] Closing input file: "/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4"
+Jan 02, 2023 09:15:57.048 [0x7f3738588140] DEBUG - Committing media stream changes for part 1
+Jan 02, 2023 09:15:57.049 [0x7f3738588140] DEBUG - Updating media item 1, size=3186871, metadata_item_id=1
+Jan 02, 2023 09:15:57.049 [0x7f3738588140] DEBUG - Updating part with ID=1 [/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4]
+Jan 02, 2023 09:15:57.049 [0x7f3734174b00] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 02, 2023 09:15:57.049 [0x7f3738588140] DEBUG - [MI] Opening input file: "/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4"
+Jan 02, 2023 09:15:57.049 [0x7f3738588140] DEBUG - [FFMPEG] - Opening '/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4' for reading
+Jan 02, 2023 09:15:57.049 [0x7f3738588140] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 02, 2023 09:15:57.049 [0x7f3738588140] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jan 02, 2023 09:15:57.049 [0x7f3738588140] DEBUG - [FFMPEG] - ISO: File Type Major Brand: M4V 
+Jan 02, 2023 09:15:57.049 [0x7f3738588140] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - Setting codecpar->delay to 1 for stream st: 0
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3611 bytes read:32768 seeks:0 nb_streams:1
+Jan 02, 2023 09:15:57.050 [0x7f37340b4b00] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 02, 2023 09:15:57.050 [0x7f3734174b00] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.050 [0x7f37340b4b00] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.050 [0x7f3738588140] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 02, 2023 09:15:57.051 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.051 [0x7f3738588140] DEBUG - [FFMPEG] - no picture 
+Jan 02, 2023 09:15:57.062 [0x7f3738588140] DEBUG - [FFMPEG] - All info found
+Jan 02, 2023 09:15:57.062 [0x7f3738588140] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 144864 bytes read:144864 seeks:0 frames:1
+Jan 02, 2023 09:15:57.062 [0x7f3738588140] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/8/c3cb6764990f4c79b0241b1aeaa36b073c86107.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
+Jan 02, 2023 09:15:57.063 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.063 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.063 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.063 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.063 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.063 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.063 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.063 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.063 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.063 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.063 [0x7f3738588140] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 02, 2023 09:15:57.064 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.064 [0x7f3738588140] DEBUG - [FFMPEG] - no picture 
+Jan 02, 2023 09:15:57.075 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.075 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.075 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.075 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.076 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.180 [0x7f3738588140] DEBUG - Loaded memory image of size 1280x720.
+Jan 02, 2023 09:15:57.199 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.199 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.199 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.199 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.200 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.200 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.200 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.200 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.200 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.200 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.200 [0x7f3738588140] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 02, 2023 09:15:57.200 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.200 [0x7f3738588140] DEBUG - [FFMPEG] - no picture 
+Jan 02, 2023 09:15:57.211 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.211 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.211 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.211 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.212 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.315 [0x7f3738588140] DEBUG - Loaded memory image of size 1280x720.
+Jan 02, 2023 09:15:57.333 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.333 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.333 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.333 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.333 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.333 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.333 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.333 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.333 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.333 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.333 [0x7f3738588140] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 02, 2023 09:15:57.334 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.334 [0x7f3738588140] DEBUG - [FFMPEG] - no picture 
+Jan 02, 2023 09:15:57.346 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.346 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.346 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.346 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.346 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.458 [0x7f3738588140] DEBUG - Loaded memory image of size 1280x720.
+Jan 02, 2023 09:15:57.476 [0x7f3738588140] DEBUG - [MI] Closing input file: "/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4"
+Jan 02, 2023 09:15:57.477 [0x7f3738588140] DEBUG - [MI] Opening input file: "/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4"
+Jan 02, 2023 09:15:57.477 [0x7f3738588140] DEBUG - [FFMPEG] - Opening '/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4' for reading
+Jan 02, 2023 09:15:57.477 [0x7f3738588140] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 02, 2023 09:15:57.477 [0x7f3738588140] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jan 02, 2023 09:15:57.477 [0x7f3738588140] DEBUG - [FFMPEG] - ISO: File Type Major Brand: M4V 
+Jan 02, 2023 09:15:57.477 [0x7f3738588140] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jan 02, 2023 09:15:57.477 [0x7f3738588140] DEBUG - [FFMPEG] - Setting codecpar->delay to 1 for stream st: 0
+Jan 02, 2023 09:15:57.477 [0x7f3738588140] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3611 bytes read:32768 seeks:0 nb_streams:1
+Jan 02, 2023 09:15:57.478 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.478 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.478 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.478 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.478 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.478 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.478 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.478 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.478 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.478 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.478 [0x7f3738588140] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 02, 2023 09:15:57.479 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.479 [0x7f3738588140] DEBUG - [FFMPEG] - no picture 
+Jan 02, 2023 09:15:57.493 [0x7f3738588140] DEBUG - [FFMPEG] - All info found
+Jan 02, 2023 09:15:57.494 [0x7f3738588140] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 144864 bytes read:144864 seeks:0 frames:1
+Jan 02, 2023 09:15:57.494 [0x7f3738588140] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/8/c3cb6764990f4c79b0241b1aeaa36b073c86107.bundle/Contents/Art/art1.jpg (50.0%, 1280x720).
+Jan 02, 2023 09:15:57.494 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.494 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.495 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.495 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.495 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.495 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.495 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.495 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.495 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.495 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.495 [0x7f3738588140] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 02, 2023 09:15:57.496 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.496 [0x7f3738588140] DEBUG - [FFMPEG] - no picture 
+Jan 02, 2023 09:15:57.509 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.509 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.509 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.509 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.509 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.622 [0x7f3738588140] DEBUG - Loaded memory image of size 1280x720.
+Jan 02, 2023 09:15:57.652 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.652 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.652 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.652 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.652 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.652 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.652 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.652 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.652 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.652 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.652 [0x7f3738588140] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 02, 2023 09:15:57.653 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.653 [0x7f3738588140] DEBUG - [FFMPEG] - no picture 
+Jan 02, 2023 09:15:57.665 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.665 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.665 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.665 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.666 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.785 [0x7f3738588140] DEBUG - Loaded memory image of size 1280x720.
+Jan 02, 2023 09:15:57.817 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.817 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.817 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.817 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.817 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.817 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.817 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.817 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.817 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.817 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.817 [0x7f3738588140] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 02, 2023 09:15:57.818 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.818 [0x7f3738588140] DEBUG - [FFMPEG] - no picture 
+Jan 02, 2023 09:15:57.830 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.830 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.830 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:57.830 [0x7f3738588140] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 1
+Jan 02, 2023 09:15:57.831 [0x7f3738588140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:57.945 [0x7f3738588140] DEBUG - Loaded memory image of size 1280x720.
+Jan 02, 2023 09:15:57.972 [0x7f3738588140] DEBUG - [MI] Closing input file: "/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4"
+Jan 02, 2023 09:15:57.973 [0x7f3738588140] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 02, 2023 09:15:57.973 [0x7f3738588140] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 02, 2023 09:15:57.974 [0x7f37340b4b00] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 02, 2023 09:15:57.974 [0x7f3738588140] DEBUG - Updating metadata item (save) (Mixkit Three Boys Exploring a Haunted House on Halloween 44292 Medium) with ID 1
+Jan 02, 2023 09:15:57.976 [0x7f3734174b00] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jan 02, 2023 09:15:57.976 [0x7f37340b4b00] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jan 02, 2023 09:15:57.977 [0x7f3738588140] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 02, 2023 09:15:57.977 [0x7f3738588140] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 02, 2023 09:15:57.977 [0x7f37340b4b00] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 02, 2023 09:15:57.977 [0x7f3738588140] DEBUG - Updating metadata item (save) (Mixkit Three Boys Exploring a Haunted House on Halloween 44292 Medium) with ID 1

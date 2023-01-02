@@ -1,0 +1,34 @@
+Jan 02, 2023 09:15:58.005 [0x7f525622eb00] INFO - Plex Media Scanner v1.30.0.6486-629d58034 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 02, 2023 09:15:58.005 [0x7f525622eb00] INFO - Linux version: 5.15.0-56-generic, language: en-US
+Jan 02, 2023 09:15:58.005 [0x7f525622eb00] INFO - Processor: 8-core 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+Jan 02, 2023 09:15:58.005 [0x7f525622eb00] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 1
+Jan 02, 2023 09:15:58.005 [0x7f5259baa140] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Jan 02, 2023 09:15:58.072 [0x7f5259baa140] DEBUG - [MI] Opening input file: "/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4"
+Jan 02, 2023 09:15:58.072 [0x7f5259baa140] DEBUG - [FFMPEG] - Opening '/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4' for reading
+Jan 02, 2023 09:15:58.072 [0x7f5259baa140] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 02, 2023 09:15:58.072 [0x7f5259baa140] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jan 02, 2023 09:15:58.072 [0x7f5259baa140] DEBUG - [FFMPEG] - ISO: File Type Major Brand: M4V 
+Jan 02, 2023 09:15:58.072 [0x7f5259baa140] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jan 02, 2023 09:15:58.073 [0x7f5259baa140] DEBUG - [FFMPEG] - Setting codecpar->delay to 1 for stream st: 0
+Jan 02, 2023 09:15:58.073 [0x7f5259baa140] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3611 bytes read:32768 seeks:0 nb_streams:1
+Jan 02, 2023 09:15:58.073 [0x7f5259baa140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:58.073 [0x7f5259baa140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:58.073 [0x7f5259baa140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:58.073 [0x7f5259baa140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:58.073 [0x7f5259baa140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:58.074 [0x7f5259baa140] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Jan 02, 2023 09:15:58.074 [0x7f5259baa140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:58.074 [0x7f5259baa140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:58.074 [0x7f5259baa140] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 02, 2023 09:15:58.074 [0x7f5259baa140] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 1
+Jan 02, 2023 09:15:58.074 [0x7f5259baa140] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 02, 2023 09:15:58.075 [0x7f5259baa140] DEBUG - [FFMPEG] - ct_type:0 pic_struct:0
+Jan 02, 2023 09:15:58.075 [0x7f5259baa140] DEBUG - [FFMPEG] - no picture 
+Jan 02, 2023 09:15:58.086 [0x7f5259baa140] DEBUG - [FFMPEG] - All info found
+Jan 02, 2023 09:15:58.086 [0x7f5259baa140] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 144864 bytes read:144864 seeks:0 frames:1
+Jan 02, 2023 09:15:58.087 [0x7f5259baa140] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:58.087 [0x7f5259baa140] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 1
+Jan 02, 2023 09:15:58.087 [0x7f5259baa140] DEBUG - [MI] Closing input file: "/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4"
+Jan 02, 2023 09:15:58.087 [0x7f5259baa140] DEBUG - Matcher: found 0 auxiliary files in "/movies" (single media: yes)
+Jan 02, 2023 09:15:58.087 [0x7f5259baa140] DEBUG - Matcher: no sidecar subtitle files found for "/movies/mixkit-three-boys-exploring-a-haunted-house-on-halloween-44292-medium.mp4"
+Jan 02, 2023 09:15:58.087 [0x7f5259baa140] DEBUG - Matcher: no valid subtitles found, removing any existing media bundle file

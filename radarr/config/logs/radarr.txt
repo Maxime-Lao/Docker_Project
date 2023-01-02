@@ -3717,3 +3717,932 @@
 2023-01-02 12:34:02.8|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
 2023-01-02 12:34:03.0|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
 2023-01-02 12:34:03.6|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-01-02 12:49:47.7|Info|ConsoleApp|Exiting main.
+2023-01-02 13:52:12.3|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2023-01-02 13:52:12.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 13:52:12.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 13:52:12.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 13:52:12.9|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 13:52:13.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 13:52:13.7|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-01-02 13:52:43.9|Info|RssSyncService|Starting RSS Sync
+2023-01-02 13:52:44.8|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 01/02/2023 10:52:43 and 01/02/2023 12:52:44 UTC. Search may be required.
+2023-01-02 13:52:44.8|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 01/02/2023 10:52:43 and 01/02/2023 12:52:44 UTC. Search may be required.
+2023-01-02 13:52:44.9|Info|DownloadDecisionMaker|Processing 76 releases
+2023-01-02 13:52:45.5|Info|RssSyncService|RSS Sync Completed. Reports found: 76, Reports grabbed: 0
+2023-01-02 13:54:49.7|Info|AddMovieService|Adding Movie [One Piece: Adventure of Nebulandia (2015)][tt6609162, 373879] Path: [/movies/One Piece Adventure of Nebulandia (2015)]
+2023-01-02 13:54:49.8|Info|RefreshMovieService|Updating info for One Piece: Adventure of Nebulandia
+2023-01-02 13:54:50.3|Info|AddMovieCollectionService|Adding Collection NzbDrone.Core.Movies.Collections.MovieCollection
+2023-01-02 13:54:50.3|Info|RefreshCollectionService|Updating info for 海贼王特别篇
+2023-01-02 13:54:50.4|Info|MediaCoverService|Downloading Poster for [One Piece: Adventure of Nebulandia (2015)][tt6609162, 373879] https://image.tmdb.org/t/p/original/xdu9XJSHT835OoChOiwEgi9Uzjf.jpg
+2023-01-02 13:54:50.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 13:54:50.4|Info|MovieScannedHandler|[One Piece: Adventure of Nebulandia] was recently added, performing post-add actions
+2023-01-02 13:54:50.4|Info|MediaCoverService|Downloading Fanart for [One Piece: Adventure of Nebulandia (2015)][tt6609162, 373879] https://image.tmdb.org/t/p/original/qiFse005acXSGGTZcETuVemJiSg.jpg
+2023-01-02 13:54:50.6|Info|ReleaseSearchService|Searching indexers for [One Piece: Adventure of Nebulandia]. 4 active indexers
+2023-01-02 13:54:51.0|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2023-01-02 13:54:54.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 13:54:54.6|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2023-01-02 13:55:11.2|Info|MovieService|Deleted movie [Avatar: The Way of Water (2022)][tt1630029, 76600]
+2023-01-02 13:55:44.4|Info|ReleaseSearchService|Searching indexers for [One Piece: Adventure of Nebulandia]. 4 active indexers
+2023-01-02 13:55:48.4|Info|DownloadDecisionMaker|No results found
+2023-01-02 13:56:13.3|Info|AddMovieService|Adding Movie [One Piece: Strong World (2009)][tt1485763, 41498] Path: [/movies/One Piece Strong World (2009)]
+2023-01-02 13:56:13.3|Info|RefreshMovieService|Updating info for One Piece: Strong World
+2023-01-02 13:56:13.4|Info|MediaCoverService|Downloading Poster for [One Piece: Strong World (2009)][tt1485763, 41498] https://image.tmdb.org/t/p/original/z9S39hH4IOX9Hmtn3zho3Wdqem8.jpg
+2023-01-02 13:56:13.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 13:56:13.4|Info|MovieScannedHandler|[One Piece: Strong World] was recently added, performing post-add actions
+2023-01-02 13:56:13.5|Info|ReleaseSearchService|Searching indexers for [One Piece: Strong World]. 4 active indexers
+2023-01-02 13:56:13.8|Info|MediaCoverService|Downloading Fanart for [One Piece: Strong World (2009)][tt1485763, 41498] https://image.tmdb.org/t/p/original/fgcSkuv3otR5iz2VzzFnh3QOI49.jpg
+2023-01-02 13:56:14.3|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2023-01-02 13:56:17.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 13:56:17.6|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2023-01-02 13:56:19.3|Info|ReleaseSearchService|Searching indexers for [One Piece: Strong World]. 4 active indexers
+2023-01-02 13:56:23.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 13:56:39.2|Info|AddMovieService|Adding Movie [Violent Night (2022)][tt12003946, 899112] Path: [/movies/Violent Night (2022)]
+2023-01-02 13:56:39.2|Info|RefreshMovieService|Updating info for Violent Night
+2023-01-02 13:56:39.3|Info|MediaCoverService|Downloading Poster for [Violent Night (2022)][tt12003946, 899112] https://image.tmdb.org/t/p/original/1XSYOP0JjjyMz1irihvWywro82r.jpg
+2023-01-02 13:56:39.3|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 13:56:39.3|Info|MovieScannedHandler|[Violent Night] was recently added, performing post-add actions
+2023-01-02 13:56:39.5|Info|ReleaseSearchService|Searching indexers for [Violent Night]. 4 active indexers
+2023-01-02 13:56:39.5|Info|DownloadDecisionMaker|No results found
+2023-01-02 13:56:39.5|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2023-01-02 13:56:39.7|Info|MediaCoverService|Downloading Fanart for [Violent Night (2022)][tt12003946, 899112] https://image.tmdb.org/t/p/original/6mEYUYdkKoVCMeYf3rTFj0L1uyv.jpg
+2023-01-02 13:56:40.3|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2023-01-02 13:56:51.0|Info|ReleaseSearchService|Searching indexers for [Violent Night]. 4 active indexers
+2023-01-02 13:56:51.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 13:57:40.8|Info|AddMovieService|Adding Movie [Avatar (2009)][tt0499549, 19995] Path: [/movies/Avatar (2009)]
+2023-01-02 13:57:40.8|Info|RefreshMovieService|Updating info for Avatar
+2023-01-02 13:57:41.0|Info|AddMovieCollectionService|Adding Collection NzbDrone.Core.Movies.Collections.MovieCollection
+2023-01-02 13:57:41.0|Info|RefreshCollectionService|Updating info for Avatar Collection
+2023-01-02 13:57:41.1|Info|MediaCoverService|Downloading Poster for [Avatar (2009)][tt0499549, 19995] https://image.tmdb.org/t/p/original/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg
+2023-01-02 13:57:41.1|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 13:57:41.1|Info|MovieScannedHandler|[Avatar] was recently added, performing post-add actions
+2023-01-02 13:57:41.2|Info|ReleaseSearchService|Searching indexers for [Avatar]. 4 active indexers
+2023-01-02 13:57:41.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 13:57:41.3|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2023-01-02 13:57:41.3|Info|MediaCoverService|Downloading Fanart for [Avatar (2009)][tt0499549, 19995] https://image.tmdb.org/t/p/original/o0s4XsEDfDlvit5pDRKjzXR4pp2.jpg
+2023-01-02 13:57:42.1|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2023-01-02 13:57:47.2|Info|ReleaseSearchService|Searching indexers for [Avatar]. 4 active indexers
+2023-01-02 13:57:47.2|Info|DownloadDecisionMaker|No results found
+2023-01-02 13:57:57.5|Info|ConsoleApp|Exiting main.
+2023-01-02 13:58:58.8|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2023-01-02 13:58:58.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 13:58:58.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 13:58:59.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 13:58:59.5|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 13:58:59.7|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 13:59:00.6|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-01-02 13:59:33.3|Info|AddMovieService|Adding Movie [Transformers: Rise of the Beasts (2023)][tt5090568, 667538] Path: [/movies/Transformers Rise of the Beasts (2023)]
+2023-01-02 13:59:33.3|Info|RefreshMovieService|Updating info for Transformers: Rise of the Beasts
+2023-01-02 13:59:33.5|Info|AddMovieCollectionService|Adding Collection NzbDrone.Core.Movies.Collections.MovieCollection
+2023-01-02 13:59:33.5|Info|RefreshCollectionService|Updating info for Transformers: Rise of the Beasts Collection
+2023-01-02 13:59:33.6|Info|MediaCoverService|Downloading Poster for [Transformers: Rise of the Beasts (2023)][tt5090568, 667538] https://image.tmdb.org/t/p/original/qBcIUgJmDGrcAKbhRwCd6AmO0ZW.jpg
+2023-01-02 13:59:33.6|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 13:59:33.6|Info|MovieScannedHandler|[Transformers: Rise of the Beasts] was recently added, performing post-add actions
+2023-01-02 13:59:33.7|Info|ReleaseSearchService|Searching indexers for [Transformers: Rise of the Beasts]. 4 active indexers
+2023-01-02 13:59:33.7|Info|MediaCoverService|Downloading Fanart for [Transformers: Rise of the Beasts (2023)][tt5090568, 667538] https://image.tmdb.org/t/p/original/rH3jY9JN9krUyE0Q3WLNtujMs8.jpg
+2023-01-02 13:59:33.8|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 13:59:33.8|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ConnectAsync(Socket socket)
+   at System.Net.Sockets.Socket.ConnectAsync(EndPoint remoteEP, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Net.Http.HttpConnectionPool.<>c__DisplayClass74_0.<CheckForHttp11ConnectionInjection>b__0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteEntryUnsafe(Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteFromThreadPool(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 13:59:34.9|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2023-01-02 13:59:34.9|Info|DownloadDecisionMaker|Processing 3 releases
+2023-01-02 13:59:35.2|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2023-01-02 13:59:38.2|Info|ReleaseSearchService|Searching indexers for [Transformers: Rise of the Beasts]. 2 active indexers
+2023-01-02 13:59:38.6|Info|DownloadDecisionMaker|Processing 3 releases
+2023-01-02 14:00:35.1|Info|ReleaseSearchService|Searching indexers for [Transformers: Rise of the Beasts]. 2 active indexers
+2023-01-02 14:00:35.2|Info|DownloadDecisionMaker|No results found
+2023-01-02 14:00:44.1|Info|ReleaseSearchService|Searching indexers for [Transformers: Rise of the Beasts]. 2 active indexers
+2023-01-02 14:00:44.1|Info|DownloadDecisionMaker|No results found
+2023-01-02 14:02:58.3|Info|ConsoleApp|Exiting main.
+2023-01-02 15:33:13.7|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2023-01-02 15:33:13.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 15:33:13.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 15:33:14.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 15:33:14.2|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 15:33:14.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 15:33:14.9|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-01-02 15:33:45.0|Info|RssSyncService|Starting RSS Sync
+2023-01-02 15:33:45.1|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 15:33:45.2|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 15:33:45.8|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 01/02/2023 12:52:44 and 01/02/2023 14:33:45 UTC. Search may be required.
+2023-01-02 15:33:46.0|Warn|Torznab|Indexer Torrent9 (Prowlarr) rss sync didn't cover the period between 01/02/2023 12:52:44 and 01/02/2023 14:33:45 UTC. Search may be required.
+2023-01-02 15:33:46.0|Info|DownloadDecisionMaker|Processing 27 releases
+2023-01-02 15:33:46.4|Info|RssSyncService|RSS Sync Completed. Reports found: 27, Reports grabbed: 0
+2023-01-02 15:35:29.4|Info|AddMovieService|Adding Movie [Puss in Book: Trapped in an Epic Tale (2017)][tt7042082, 462650] Path: [/movies/Puss in Book Trapped in an Epic Tale (2017)]
+2023-01-02 15:35:29.5|Info|RefreshMovieService|Updating info for Puss in Book: Trapped in an Epic Tale
+2023-01-02 15:35:29.6|Info|MediaCoverService|Downloading Poster for [Puss in Book: Trapped in an Epic Tale (2017)][tt7042082, 462650] https://image.tmdb.org/t/p/original/sxqByjRM9SQ8SOO18IrAwjynJ62.jpg
+2023-01-02 15:35:29.7|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 15:35:29.7|Info|MovieScannedHandler|[Puss in Book: Trapped in an Epic Tale] was recently added, performing post-add actions
+2023-01-02 15:35:29.8|Info|MediaCoverService|Downloading Fanart for [Puss in Book: Trapped in an Epic Tale (2017)][tt7042082, 462650] https://image.tmdb.org/t/p/original/kBswyB5DMcvFxv9eHWYabMov8NB.jpg
+2023-01-02 15:35:29.8|Info|ReleaseSearchService|Searching indexers for [Puss in Book: Trapped in an Epic Tale]. 2 active indexers
+2023-01-02 15:35:30.3|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2023-01-02 15:35:35.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 15:35:35.0|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2023-01-02 15:35:36.4|Info|ReleaseSearchService|Searching indexers for [Puss in Book: Trapped in an Epic Tale]. 2 active indexers
+2023-01-02 15:35:41.4|Info|DownloadDecisionMaker|No results found
+2023-01-02 15:40:41.7|Info|ReleaseSearchService|Searching indexers for [The Last: Naruto the Movie]. 4 active indexers
+2023-01-02 15:40:41.7|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 36
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 15:40:41.7|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 36
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 15:40:44.2|Info|DownloadDecisionMaker|Processing 32 releases
+2023-01-02 15:42:22.1|Info|ConsoleApp|Exiting main.
+2023-01-02 17:21:32.0|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2023-01-02 17:21:32.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:21:32.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:21:33.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:21:33.6|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 17:21:33.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 17:21:34.8|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-01-02 17:22:05.2|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2023-01-02 17:22:05.3|Info|RssSyncService|Starting RSS Sync
+2023-01-02 17:22:05.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:22:05.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:22:05.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:22:05.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:22:05.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:22:05.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:22:05.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:22:05.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:22:05.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:22:05.5|Info|RefreshMovieService|Updating info for Transformers: Rise of the Beasts
+2023-01-02 17:22:06.0|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:22:06.0|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:22:06.0|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:22:06.1|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2023-01-02 17:22:06.1|Info|HousekeepingService|Running housecleaning tasks
+2023-01-02 17:22:06.1|Info|Database|Vacuuming Log database
+2023-01-02 17:22:06.2|Info|Database|Log database compressed
+2023-01-02 17:22:06.2|Info|Database|Vacuuming Main database
+2023-01-02 17:22:06.2|Info|Database|Main database compressed
+2023-01-02 17:22:07.2|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 01/02/2023 12:52:44 and 01/02/2023 16:22:07 UTC. Search may be required.
+2023-01-02 17:22:07.3|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 01/02/2023 14:33:45 and 01/02/2023 16:22:07 UTC. Search may be required.
+2023-01-02 17:22:07.3|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 01/02/2023 12:52:44 and 01/02/2023 16:22:07 UTC. Search may be required.
+2023-01-02 17:22:07.5|Warn|Torznab|Indexer Torrent9 (Prowlarr) rss sync didn't cover the period between 01/02/2023 14:33:45 and 01/02/2023 16:22:07 UTC. Search may be required.
+2023-01-02 17:22:07.5|Info|DownloadDecisionMaker|Processing 67 releases
+2023-01-02 17:22:07.9|Info|RssSyncService|RSS Sync Completed. Reports found: 67, Reports grabbed: 0
+2023-01-02 17:26:08.5|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2023-01-02 17:26:08.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:26:08.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:26:08.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:26:09.0|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 17:26:09.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 17:26:09.8|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-01-02 17:30:30.1|Info|MovieService|Deleted movie [Avatar (2009)][tt0499549, 19995]
+2023-01-02 17:31:22.2|Info|MovieService|Deleted movie [Turning Red (2022)][tt8097030, 508947]
+2023-01-02 17:33:25.6|Info|AddMovieService|Adding Movie [Guillermo del Toro's Pinocchio (2022)][tt1488589, 555604] Path: [/movies/Guillermo del Toro's Pinocchio (2022)]
+2023-01-02 17:33:25.7|Info|RefreshMovieService|Updating info for Guillermo del Toro's Pinocchio
+2023-01-02 17:33:25.8|Info|MediaCoverService|Downloading Poster for [Guillermo del Toro's Pinocchio (2022)][tt1488589, 555604] https://image.tmdb.org/t/p/original/vx1u0uwxdlhV2MUzj4VlcMB0N6m.jpg
+2023-01-02 17:33:25.8|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:33:25.8|Info|MovieScannedHandler|[Guillermo del Toro's Pinocchio] was recently added, performing post-add actions
+2023-01-02 17:33:25.8|Info|ReleaseSearchService|Searching indexers for [Guillermo del Toro's Pinocchio]. 4 active indexers
+2023-01-02 17:33:25.9|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 17:33:26.0|Info|MediaCoverService|Downloading Fanart for [Guillermo del Toro's Pinocchio (2022)][tt1488589, 555604] https://image.tmdb.org/t/p/original/2JeIqOdSM5nC1SQmuhUOfj3iB1U.jpg
+2023-01-02 17:33:25.9|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 17:33:27.1|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2023-01-02 17:33:29.5|Info|DownloadDecisionMaker|Processing 29 releases
+2023-01-02 17:33:29.8|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2023-01-02 17:33:41.2|Info|ReleaseSearchService|Searching indexers for [Guillermo del Toro's Pinocchio]. 2 active indexers
+2023-01-02 17:33:44.6|Info|DownloadDecisionMaker|Processing 29 releases
+2023-01-02 17:50:53.6|Info|AddMovieService|Adding Movie [Road to Ninja: Naruto the Movie (2012)][tt2290828, 118406] Path: [/movies/Road to Ninja Naruto the Movie (2012)]
+2023-01-02 17:50:53.6|Info|RefreshMovieService|Updating info for Road to Ninja: Naruto the Movie
+2023-01-02 17:50:53.8|Info|MediaCoverService|Downloading Poster for [Road to Ninja: Naruto the Movie (2012)][tt2290828, 118406] https://image.tmdb.org/t/p/original/xLal6fXNtiJN6Zw6qk21xAtdOeN.jpg
+2023-01-02 17:50:53.8|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 17:50:53.8|Info|MovieScannedHandler|[Road to Ninja: Naruto the Movie] was recently added, performing post-add actions
+2023-01-02 17:50:53.9|Info|ReleaseSearchService|Searching indexers for [Road to Ninja: Naruto the Movie]. 4 active indexers
+2023-01-02 17:50:53.9|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 17:50:53.9|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 17:50:54.0|Info|MediaCoverService|Downloading Fanart for [Road to Ninja: Naruto the Movie (2012)][tt2290828, 118406] https://image.tmdb.org/t/p/original/uGeXHWica9ZLGlbYiR4bAHtjOup.jpg
+2023-01-02 17:50:54.3|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2023-01-02 17:50:57.3|Info|DownloadDecisionMaker|Processing 7 releases
+2023-01-02 17:50:57.3|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2023-01-02 17:51:14.4|Info|ReleaseSearchService|Searching indexers for [Naruto Shippuden the Movie: Blood Prison]. 2 active indexers
+2023-01-02 17:51:19.7|Info|DownloadDecisionMaker|Processing 2 releases
+2023-01-02 17:55:29.7|Info|ConsoleApp|Exiting main.
+2023-01-02 17:06:30.2|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2023-01-02 17:06:30.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:06:30.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:06:30.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:06:30.7|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 17:06:30.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 17:06:31.4|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-01-02 17:06:52.0|Info|ReleaseSearchService|Searching indexers for [Naruto Shippuden the Movie: Blood Prison]. 4 active indexers
+2023-01-02 17:06:52.1|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 17:06:52.1|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 17:06:56.5|Info|DownloadDecisionMaker|Processing 2 releases
+2023-01-02 17:12:14.4|Info|ConsoleApp|Exiting main.
+2023-01-02 17:12:26.0|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2023-01-02 17:12:26.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:12:26.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:12:26.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:12:26.5|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 17:12:26.7|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 17:12:27.3|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-01-02 17:15:43.0|Info|ConsoleApp|Exiting main.
+2023-01-02 18:16:10.3|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2023-01-02 18:16:10.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 18:16:10.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 18:16:10.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 18:16:10.8|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 18:16:10.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 18:16:11.5|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-01-02 18:16:45.0|Info|AddMovieService|Adding Movie [Boruto: Naruto the Movie (2015)][tt4618398, 347201] Path: [/movies/Boruto Naruto the Movie (2015)]
+2023-01-02 18:16:45.2|Info|RefreshMovieService|Updating info for Boruto: Naruto the Movie
+2023-01-02 18:16:45.4|Info|MediaCoverService|Downloading Poster for [Boruto: Naruto the Movie (2015)][tt4618398, 347201] https://image.tmdb.org/t/p/original/1k6iwC4KaPvTBt1JuaqXy3noZRY.jpg
+2023-01-02 18:16:45.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty. Rescan will not update movies as a failsafe.
+2023-01-02 18:16:45.4|Info|MovieScannedHandler|[Boruto: Naruto the Movie] was recently added, performing post-add actions
+2023-01-02 18:16:45.5|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto the Movie]. 4 active indexers
+2023-01-02 18:16:45.5|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 18:16:45.5|Info|MediaCoverService|Downloading Fanart for [Boruto: Naruto the Movie (2015)][tt4618398, 347201] https://image.tmdb.org/t/p/original/8kQtBcax6zqiwFhDRS2mmPvLf8.jpg
+2023-01-02 18:16:45.5|Error|Torznab|An error occurred while processing indexer feed. 
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Connection refused (172.24.0.2:9696)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 104
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 95
+
+
+2023-01-02 18:16:46.5|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2023-01-02 18:16:50.5|Info|DownloadDecisionMaker|Processing 34 releases
+2023-01-02 18:16:50.8|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2023-01-02 18:17:33.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto the Movie]. 2 active indexers
+2023-01-02 18:17:45.1|Info|DownloadDecisionMaker|Processing 34 releases
+2023-01-02 18:17:53.2|Error|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+
+[v4.2.4.6635] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Torrent Download client isn't configured yet
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteMovie remoteMovie) in D:\a\1\s\src\NzbDrone.Core\Download\DownloadService.cs:line 57
+   at Radarr.Api.V3.Indexers.ReleaseController.DownloadRelease(ReleaseResource release) in D:\a\1\s\src\Radarr.Api.V3\Indexers\ReleaseController.cs:line 87
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Radarr.Http.Middleware.BufferingMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\BufferingMiddleware.cs:line 28
+   at Radarr.Http.Middleware.IfModifiedMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\IfModifiedMiddleware.cs:line 41
+   at Radarr.Http.Middleware.CacheHeaderMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\CacheHeaderMiddleware.cs:line 33
+   at Radarr.Http.Middleware.UrlBaseMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\UrlBaseMiddleware.cs:line 27
+   at Radarr.Http.Middleware.VersionMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\VersionMiddleware.cs:line 28
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+
+2023-01-02 18:17:53.2|Fatal|RadarrErrorPipeline|Request Failed. POST /api/v3/release
+
+[v4.2.4.6635] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Torrent Download client isn't configured yet
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteMovie remoteMovie) in D:\a\1\s\src\NzbDrone.Core\Download\DownloadService.cs:line 57
+   at Radarr.Api.V3.Indexers.ReleaseController.DownloadRelease(ReleaseResource release) in D:\a\1\s\src\Radarr.Api.V3\Indexers\ReleaseController.cs:line 87
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Radarr.Http.Middleware.BufferingMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\BufferingMiddleware.cs:line 28
+   at Radarr.Http.Middleware.IfModifiedMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\IfModifiedMiddleware.cs:line 41
+   at Radarr.Http.Middleware.CacheHeaderMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\CacheHeaderMiddleware.cs:line 33
+   at Radarr.Http.Middleware.UrlBaseMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\UrlBaseMiddleware.cs:line 27
+   at Radarr.Http.Middleware.VersionMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\VersionMiddleware.cs:line 28
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+
+2023-01-02 18:17:58.9|Error|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+
+[v4.2.4.6635] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Torrent Download client isn't configured yet
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteMovie remoteMovie) in D:\a\1\s\src\NzbDrone.Core\Download\DownloadService.cs:line 57
+   at Radarr.Api.V3.Indexers.ReleaseController.DownloadRelease(ReleaseResource release) in D:\a\1\s\src\Radarr.Api.V3\Indexers\ReleaseController.cs:line 87
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Radarr.Http.Middleware.BufferingMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\BufferingMiddleware.cs:line 28
+   at Radarr.Http.Middleware.IfModifiedMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\IfModifiedMiddleware.cs:line 41
+   at Radarr.Http.Middleware.CacheHeaderMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\CacheHeaderMiddleware.cs:line 33
+   at Radarr.Http.Middleware.UrlBaseMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\UrlBaseMiddleware.cs:line 27
+   at Radarr.Http.Middleware.VersionMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\VersionMiddleware.cs:line 28
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+
+2023-01-02 18:17:58.9|Fatal|RadarrErrorPipeline|Request Failed. POST /api/v3/release
+
+[v4.2.4.6635] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Torrent Download client isn't configured yet
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteMovie remoteMovie) in D:\a\1\s\src\NzbDrone.Core\Download\DownloadService.cs:line 57
+   at Radarr.Api.V3.Indexers.ReleaseController.DownloadRelease(ReleaseResource release) in D:\a\1\s\src\Radarr.Api.V3\Indexers\ReleaseController.cs:line 87
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Radarr.Http.Middleware.BufferingMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\BufferingMiddleware.cs:line 28
+   at Radarr.Http.Middleware.IfModifiedMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\IfModifiedMiddleware.cs:line 41
+   at Radarr.Http.Middleware.CacheHeaderMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\CacheHeaderMiddleware.cs:line 33
+   at Radarr.Http.Middleware.UrlBaseMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\UrlBaseMiddleware.cs:line 27
+   at Radarr.Http.Middleware.VersionMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\VersionMiddleware.cs:line 28
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+
+2023-01-02 18:18:58.8|Info|ConsoleApp|Exiting main.
+2023-01-02 17:20:09.9|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2023-01-02 17:20:10.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:20:10.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:20:10.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 17:20:10.4|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 17:20:10.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 17:20:11.2|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-01-02 17:21:02.2|Info|ConsoleApp|Exiting main.
