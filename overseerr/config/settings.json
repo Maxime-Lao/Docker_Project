@@ -33,14 +33,14 @@
     "name": "Films",
     "enabled": true,
     "type": "movie",
-    "lastScan": 1672591500023
+    "lastScan": 1672659600070
    },
    {
     "id": "2",
     "name": "Séries TV",
     "enabled": true,
     "type": "show",
-    "lastScan": 1672591500026
+    "lastScan": 1672659600074
    }
   ],
   "machineId": "fb685177d8f6bb83de49fedfebd2ed47642b5881"
@@ -49,17 +49,18 @@
  "radarr": [
   {
    "name": "Radarr",
-   "hostname": "172.24.0.3",
+   "hostname": "radarr",
    "port": 7878,
    "apiKey": "a87ae9e6ea39416aa07bcc235f62d66a",
    "useSsl": false,
+   "baseUrl": "",
    "activeProfileId": 4,
    "activeProfileName": "HD-1080p",
    "activeDirectory": "/movies",
-   "is4k": false,
+   "is4k": true,
    "minimumAvailability": "announced",
    "tags": [],
-   "isDefault": false,
+   "isDefault": true,
    "syncEnabled": true,
    "preventSearch": false,
    "id": 0
@@ -68,18 +69,19 @@
  "sonarr": [
   {
    "name": "Sonarr",
-   "hostname": "172.24.0.5",
+   "hostname": "sonarr",
    "port": 8989,
    "apiKey": "3edb11638bfa4b36a6ed7e4064256795",
    "useSsl": false,
+   "baseUrl": "",
    "activeProfileId": 4,
    "activeLanguageProfileId": 1,
    "activeProfileName": "HD-1080p",
    "activeDirectory": "/tv",
    "tags": [],
    "animeTags": [],
-   "is4k": false,
-   "isDefault": false,
+   "is4k": true,
+   "isDefault": true,
    "enableSeasonFolders": false,
    "syncEnabled": true,
    "preventSearch": false,

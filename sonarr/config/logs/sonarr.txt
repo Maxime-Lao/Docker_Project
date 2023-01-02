@@ -735,3 +735,957 @@
 2023-01-01 19:05:20.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
 2023-01-01 19:05:20.4|Info|DownloadDecisionMaker|No results found
 2023-01-01 19:05:20.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-01-02 09:51:25.2|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-02 09:51:25.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 09:51:25.5|Info|Router|Application mode: Interactive
+2023-01-02 09:51:25.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 09:51:25.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 09:51:25.9|Info|OwinHostController|Listening on the following URLs:
+2023-01-02 09:51:25.9|Info|OwinHostController|  http://*:8989/
+2023-01-02 09:51:26.3|Info|SonarrBootstrapper|Starting Web Server
+2023-01-02 09:51:56.9|Info|SceneMappingService|Updating Scene mappings
+2023-01-02 09:51:57.0|Info|RssSyncService|Starting RSS Sync
+2023-01-02 09:51:57.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-01-02 09:51:57.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 09:51:57.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-01-02 09:51:57.0|Info|RefreshSeriesService|Skipping refresh of series: How I Met Your Mother
+2023-01-02 09:51:57.0|Warn|DiskScanService|Series' root folder (/tv/) is empty.
+2023-01-02 09:57:11.0|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-02 09:57:11.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 09:57:11.3|Info|Router|Application mode: Interactive
+2023-01-02 09:57:11.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 09:57:11.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 09:57:11.7|Info|OwinHostController|Listening on the following URLs:
+2023-01-02 09:57:11.7|Info|OwinHostController|  http://*:8989/
+2023-01-02 09:57:12.0|Info|SonarrBootstrapper|Starting Web Server
+2023-01-02 10:07:13.0|Info|RssSyncService|Starting RSS Sync
+2023-01-02 10:07:13.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-01-02 10:07:13.1|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:07:13.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-01-02 10:08:09.5|Info|AddSeriesService|Adding Series [397934][Chainsaw Man] Path: [/tv/Chainsaw Man]
+2023-01-02 10:08:09.5|Info|SceneMappingService|Updating Scene mappings
+2023-01-02 10:08:09.6|Info|RefreshSeriesService|Updating Chainsaw Man
+2023-01-02 10:08:09.6|Info|RefreshEpisodeService|Starting episode info refresh for: [397934][Chainsaw Man]
+2023-01-02 10:08:09.6|Info|RefreshEpisodeService|Finished episode refresh for series: [397934][Chainsaw Man].
+2023-01-02 10:08:09.7|Info|MediaCoverService|Downloading Banner for [397934][Chainsaw Man] https://artworks.thetvdb.com/banners/v4/series/397934/banners/60d89543a1a90.jpg
+2023-01-02 10:08:09.7|Warn|DiskScanService|Series' root folder (/tv/) is empty.
+2023-01-02 10:08:09.7|Info|SeriesScannedHandler|[Chainsaw Man] was recently added, performing post-add actions
+2023-01-02 10:08:09.7|Warn|MediaCoverMapper|File /config/MediaCover/2/poster.jpg not found
+2023-01-02 10:08:09.7|Info|MediaCoverService|Downloading Poster for [397934][Chainsaw Man] https://artworks.thetvdb.com/banners/v4/series/397934/posters/6345afeb2f65d.jpg
+2023-01-02 10:08:09.8|Info|MediaCoverService|Downloading Fanart for [397934][Chainsaw Man] https://artworks.thetvdb.com/banners/v4/series/397934/backgrounds/62f7545a78181.jpg
+2023-01-02 10:08:10.3|Info|EpisodeSearchService|Performing search for 12 episodes
+2023-01-02 10:08:10.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E01 (01)]. 0 active indexers
+2023-01-02 10:08:10.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:08:10.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E02 (02)]. 0 active indexers
+2023-01-02 10:08:10.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:08:10.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E03 (03)]. 0 active indexers
+2023-01-02 10:08:10.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:08:10.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E04 (04)]. 0 active indexers
+2023-01-02 10:08:10.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:08:10.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E05 (05)]. 0 active indexers
+2023-01-02 10:08:10.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:08:10.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E06 (06)]. 0 active indexers
+2023-01-02 10:08:10.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:08:10.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E07 (07)]. 0 active indexers
+2023-01-02 10:08:10.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:08:10.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E08 (08)]. 0 active indexers
+2023-01-02 10:08:10.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:08:10.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E09 (09)]. 0 active indexers
+2023-01-02 10:08:10.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:08:10.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E10 (10)]. 0 active indexers
+2023-01-02 10:08:10.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:08:10.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E11 (11)]. 0 active indexers
+2023-01-02 10:08:10.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:08:10.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E12 (12)]. 0 active indexers
+2023-01-02 10:08:10.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:08:10.3|Info|EpisodeSearchService|Completed search for 12 episodes. 0 reports downloaded.
+2023-01-02 10:08:13.7|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2023-01-02 10:15:34.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-02 10:15:34.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 10:15:35.0|Info|Router|Application mode: Interactive
+2023-01-02 10:15:35.1|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 10:15:35.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 10:15:35.5|Info|OwinHostController|Listening on the following URLs:
+2023-01-02 10:15:35.5|Info|OwinHostController|  http://*:8989/
+2023-01-02 10:15:35.8|Info|SonarrBootstrapper|Starting Web Server
+2023-01-02 10:25:55.6|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-02 10:25:55.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 10:25:56.0|Info|Router|Application mode: Interactive
+2023-01-02 10:25:56.2|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 10:25:56.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 10:25:56.6|Info|OwinHostController|Listening on the following URLs:
+2023-01-02 10:25:56.6|Info|OwinHostController|  http://*:8989/
+2023-01-02 10:25:56.9|Info|SonarrBootstrapper|Starting Web Server
+2023-01-02 10:26:27.8|Info|RssSyncService|Starting RSS Sync
+2023-01-02 10:26:27.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-01-02 10:26:27.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:26:27.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-01-02 10:41:27.9|Info|RssSyncService|Starting RSS Sync
+2023-01-02 10:41:27.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-01-02 10:41:27.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:41:27.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-01-02 10:53:48.8|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-02 10:53:49.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 10:53:49.3|Info|Router|Application mode: Interactive
+2023-01-02 10:53:49.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 10:53:49.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 10:53:49.7|Info|OwinHostController|Listening on the following URLs:
+2023-01-02 10:53:49.7|Info|OwinHostController|  http://*:8989/
+2023-01-02 10:53:50.0|Info|SonarrBootstrapper|Starting Web Server
+2023-01-02 10:53:54.0|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] System.Net.WebException: Error: ConnectFailure (Network is unreachable): 'https://services.sonarr.tv/v1/time' ---> System.Net.WebException: Error: ConnectFailure (Network is unreachable) ---> System.Net.Sockets.SocketException: Network is unreachable
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x00123] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:81 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check () [0x0001b] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\HealthCheck\Checks\SystemTimeCheck.cs:28 
+  at NzbDrone.Core.HealthCheck.HealthCheckService+<>c.<PerformHealthCheck>b__14_0 (NzbDrone.Core.HealthCheck.IProvideHealthCheck c) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:79 
+  at System.Linq.Enumerable+SelectArrayIterator`2[TSource,TResult].ToList () [0x00014] in <f6c405b973804b5c804e7e759353765f>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <f6c405b973804b5c804e7e759353765f>:0 
+  at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck (NzbDrone.Core.HealthCheck.IProvideHealthCheck[] healthChecks) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:79 
+  at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync (NzbDrone.Core.Lifecycle.ApplicationStartedEvent message) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:117 
+  at NzbDrone.Core.Messaging.Events.EventAggregator+<>c__DisplayClass6_2`1[TEvent].<PublishEvent>b__2 () [0x00035] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Events\EventAggregator.cs:119 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-02 10:56:50.8|Info|RssSyncService|Starting RSS Sync
+2023-01-02 10:56:50.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-01-02 10:56:50.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 10:56:50.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-01-02 11:03:30.8|Info|AddSeriesService|Adding Series [248482][The Amazing World of Gumball] Path: [/tv/The Amazing World of Gumball]
+2023-01-02 11:03:30.8|Info|SceneMappingService|Updating Scene mappings
+2023-01-02 11:03:30.8|Info|RefreshSeriesService|Updating The Amazing World of Gumball
+2023-01-02 11:03:30.9|Info|RefreshEpisodeService|Starting episode info refresh for: [248482][The Amazing World of Gumball]
+2023-01-02 11:03:31.0|Info|RefreshEpisodeService|Finished episode refresh for series: [248482][The Amazing World of Gumball].
+2023-01-02 11:03:31.0|Info|MediaCoverService|Downloading Banner for [248482][The Amazing World of Gumball] https://artworks.thetvdb.com/banners/graphical/248482-g2.jpg
+2023-01-02 11:03:31.0|Warn|DiskScanService|Series' root folder (/tv/) is empty.
+2023-01-02 11:03:31.0|Info|SeriesScannedHandler|[The Amazing World of Gumball] was recently added, performing post-add actions
+2023-01-02 11:03:31.1|Warn|MediaCoverMapper|File /config/MediaCover/3/poster.jpg not found
+2023-01-02 11:03:31.1|Info|MediaCoverService|Downloading Poster for [248482][The Amazing World of Gumball] https://artworks.thetvdb.com/banners/posters/248482-2.jpg
+2023-01-02 11:03:31.2|Info|MediaCoverService|Downloading Fanart for [248482][The Amazing World of Gumball] https://artworks.thetvdb.com/banners/fanart/original/248482-1.jpg
+2023-01-02 11:03:31.5|Info|EpisodeSearchService|Performing search for 40 episodes
+2023-01-02 11:03:31.5|Info|ReleaseSearchService|Searching indexers for [The Amazing World of Gumball : S02]. 3 active indexers
+2023-01-02 11:03:34.8|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2023-01-02 11:03:38.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 11:03:38.0|Info|EpisodeSearchService|Completed search for 40 episodes. 0 reports downloaded.
+2023-01-02 11:03:43.1|Info|ReleaseSearchService|Searching indexers for [The Amazing World of Gumball : S06]. 3 active indexers
+2023-01-02 11:03:49.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 11:11:51.0|Info|RssSyncService|Starting RSS Sync
+2023-01-02 11:11:51.6|Info|DownloadDecisionMaker|Processing 37 releases
+2023-01-02 11:11:51.7|Info|RssSyncService|RSS Sync Completed. Reports found: 37, Reports grabbed: 0, Reports pending: 1
+2023-01-02 11:35:13.3|Info|RssSyncService|Starting RSS Sync
+2023-01-02 11:35:14.0|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 1/2/2023 10:11:51 AM and 1/2/2023 10:35:13 AM UTC. Search may be required.
+2023-01-02 11:35:14.0|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 1/2/2023 10:11:51 AM and 1/2/2023 10:35:14 AM UTC. Search may be required.
+2023-01-02 11:35:14.0|Info|DownloadDecisionMaker|Processing 36 releases
+2023-01-02 11:35:14.1|Info|RssSyncService|RSS Sync Completed. Reports found: 36, Reports grabbed: 0, Reports pending: 2
+2023-01-02 11:39:02.2|Warn|SonarrErrorPipeline|Invalid request Validation failed: 
+ -- Name: 'Name' must not be empty.
+2023-01-02 11:42:00.6|Warn|SonarrErrorPipeline|Invalid request Validation failed: 
+ -- Cutoff: Cutoff must be an allowed quality or group
+ -- Items: Must contain at least one allowed quality
+2023-01-02 11:50:11.8|Info|AddSeriesService|Adding Series [78857][Naruto] Path: [/tv/Naruto]
+2023-01-02 11:50:11.8|Info|RefreshSeriesService|Updating Naruto
+2023-01-02 11:50:11.9|Info|RefreshEpisodeService|Starting episode info refresh for: [78857][Naruto]
+2023-01-02 11:50:12.0|Info|RefreshEpisodeService|Finished episode refresh for series: [78857][Naruto].
+2023-01-02 11:50:12.5|Info|MediaCoverService|Downloading Banner for [78857][Naruto] https://artworks.thetvdb.com/banners/graphical/78857-g4.jpg
+2023-01-02 11:50:12.5|Warn|DiskScanService|Series' root folder (/tv/) is empty.
+2023-01-02 11:50:12.5|Info|SeriesScannedHandler|[Naruto] was recently added, performing post-add actions
+2023-01-02 11:50:12.7|Info|MediaCoverService|Downloading Poster for [78857][Naruto] https://artworks.thetvdb.com/banners/v4/series/78857/posters/6069f97b9bad8.jpg
+2023-01-02 11:50:12.8|Info|EpisodeSearchService|Performing search for 35 episodes
+2023-01-02 11:50:12.8|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E01 (01)]. 3 active indexers
+2023-01-02 11:50:12.8|Info|MediaCoverService|Downloading Fanart for [78857][Naruto] https://artworks.thetvdb.com/banners/fanart/original/78857-32.jpg
+2023-01-02 11:50:14.5|Info|DownloadDecisionMaker|Processing 9 releases
+2023-01-02 11:50:14.6|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E02 (02)]. 3 active indexers
+2023-01-02 11:50:16.2|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2023-01-02 11:50:16.2|Info|DownloadDecisionMaker|Processing 12 releases
+2023-01-02 11:50:16.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E03 (03)]. 3 active indexers
+2023-01-02 11:50:18.5|Info|DownloadDecisionMaker|Processing 14 releases
+2023-01-02 11:50:18.6|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E04 (04)]. 3 active indexers
+2023-01-02 11:50:20.1|Info|DownloadDecisionMaker|Processing 19 releases
+2023-01-02 11:50:20.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E05 (05)]. 3 active indexers
+2023-01-02 11:50:22.4|Info|DownloadDecisionMaker|Processing 18 releases
+2023-01-02 11:50:22.5|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E06 (06)]. 3 active indexers
+2023-01-02 11:50:24.5|Info|DownloadDecisionMaker|Processing 19 releases
+2023-01-02 11:50:24.5|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E07 (07)]. 3 active indexers
+2023-01-02 11:50:26.4|Info|DownloadDecisionMaker|Processing 18 releases
+2023-01-02 11:50:26.5|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E08 (08)]. 3 active indexers
+2023-01-02 11:50:28.6|Info|DownloadDecisionMaker|Processing 19 releases
+2023-01-02 11:50:28.7|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E09 (09)]. 3 active indexers
+2023-01-02 11:50:30.5|Info|DownloadDecisionMaker|Processing 21 releases
+2023-01-02 11:50:30.6|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E10 (10)]. 3 active indexers
+2023-01-02 11:50:32.6|Info|DownloadDecisionMaker|Processing 48 releases
+2023-01-02 11:50:32.7|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E11 (11)]. 3 active indexers
+2023-01-02 11:50:32.9|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E35 (35)]. 3 active indexers
+2023-01-02 11:50:34.4|Info|DownloadDecisionMaker|Processing 25 releases
+2023-01-02 11:50:34.5|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E12 (12)]. 3 active indexers
+2023-01-02 11:50:36.1|Info|DownloadDecisionMaker|Processing 25 releases
+2023-01-02 11:50:36.2|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2023-01-02 11:50:38.3|Info|DownloadDecisionMaker|Processing 30 releases
+2023-01-02 11:50:38.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E13 (13)]. 3 active indexers
+2023-01-02 11:50:40.1|Info|DownloadDecisionMaker|Processing 34 releases
+2023-01-02 11:50:40.1|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E14 (14)]. 3 active indexers
+2023-01-02 11:50:42.3|Info|DownloadDecisionMaker|Processing 35 releases
+2023-01-02 11:50:42.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E15 (15)]. 3 active indexers
+2023-01-02 11:50:43.7|Info|RssSyncService|Starting RSS Sync
+2023-01-02 11:50:43.8|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E35 (35)]. 3 active indexers
+2023-01-02 11:50:44.2|Info|DownloadDecisionMaker|Processing 35 releases
+2023-01-02 11:50:44.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E16 (16)]. 3 active indexers
+2023-01-02 11:50:45.1|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 1/2/2023 10:35:14 AM and 1/2/2023 10:50:45 AM UTC. Search may be required.
+2023-01-02 11:50:45.1|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 1/2/2023 10:35:14 AM and 1/2/2023 10:50:45 AM UTC. Search may be required.
+2023-01-02 11:50:45.1|Info|DownloadDecisionMaker|Processing 37 releases
+2023-01-02 11:50:45.2|Info|RssSyncService|RSS Sync Completed. Reports found: 37, Reports grabbed: 0, Reports pending: 3
+2023-01-02 11:50:48.2|Info|DownloadDecisionMaker|Processing 25 releases
+2023-01-02 11:50:48.3|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2023-01-02 11:50:50.0|Info|DownloadDecisionMaker|Processing 34 releases
+2023-01-02 11:50:50.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E17 (17)]. 3 active indexers
+2023-01-02 11:50:52.2|Info|DownloadDecisionMaker|Processing 37 releases
+2023-01-02 11:50:52.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E18 (18)]. 3 active indexers
+2023-01-02 11:50:54.2|Info|DownloadDecisionMaker|Processing 38 releases
+2023-01-02 11:50:54.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E19 (19)]. 3 active indexers
+2023-01-02 11:50:56.1|Info|DownloadDecisionMaker|Processing 39 releases
+2023-01-02 11:50:56.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E20 (20)]. 3 active indexers
+2023-01-02 11:50:58.4|Info|DownloadDecisionMaker|Processing 18 releases
+2023-01-02 11:50:58.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E21 (21)]. 3 active indexers
+2023-01-02 11:51:00.5|Info|DownloadDecisionMaker|Processing 42 releases
+2023-01-02 11:51:00.6|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E22 (22)]. 3 active indexers
+2023-01-02 11:51:02.4|Info|DownloadDecisionMaker|Processing 42 releases
+2023-01-02 11:51:02.5|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E23 (23)]. 3 active indexers
+2023-01-02 11:51:04.4|Info|DownloadDecisionMaker|Processing 40 releases
+2023-01-02 11:51:04.5|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E24 (24)]. 3 active indexers
+2023-01-02 11:51:06.3|Info|DownloadDecisionMaker|Processing 37 releases
+2023-01-02 11:51:06.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E25 (25)]. 3 active indexers
+2023-01-02 11:51:08.4|Info|DownloadDecisionMaker|Processing 45 releases
+2023-01-02 11:51:08.5|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E26 (26)]. 3 active indexers
+2023-01-02 11:51:10.3|Info|DownloadDecisionMaker|Processing 46 releases
+2023-01-02 11:51:10.5|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E27 (27)]. 3 active indexers
+2023-01-02 11:51:12.3|Info|DownloadDecisionMaker|Processing 49 releases
+2023-01-02 11:51:12.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E28 (28)]. 3 active indexers
+2023-01-02 11:51:14.3|Info|DownloadDecisionMaker|Processing 26 releases
+2023-01-02 11:51:14.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E29 (29)]. 3 active indexers
+2023-01-02 11:51:16.1|Info|DownloadDecisionMaker|Processing 24 releases
+2023-01-02 11:51:16.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E30 (30)]. 3 active indexers
+2023-01-02 11:51:18.4|Info|DownloadDecisionMaker|Processing 24 releases
+2023-01-02 11:51:18.5|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E31 (31)]. 3 active indexers
+2023-01-02 11:51:20.3|Info|DownloadDecisionMaker|Processing 18 releases
+2023-01-02 11:51:20.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E32 (32)]. 3 active indexers
+2023-01-02 11:51:22.4|Info|DownloadDecisionMaker|Processing 14 releases
+2023-01-02 11:51:22.5|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E33 (33)]. 3 active indexers
+2023-01-02 11:51:24.3|Info|DownloadDecisionMaker|Processing 25 releases
+2023-01-02 11:51:24.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E34 (34)]. 3 active indexers
+2023-01-02 11:51:26.2|Info|DownloadDecisionMaker|Processing 26 releases
+2023-01-02 11:51:26.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E35 (35)]. 3 active indexers
+2023-01-02 11:51:28.3|Info|DownloadDecisionMaker|Processing 25 releases
+2023-01-02 11:51:28.4|Info|EpisodeSearchService|Completed search for 35 episodes. 0 reports downloaded.
+2023-01-02 11:51:39.7|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E35 (35)]. 3 active indexers
+2023-01-02 11:51:41.1|Info|DownloadDecisionMaker|Processing 25 releases
+2023-01-02 11:51:41.2|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2023-01-02 11:53:14.6|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E01 (01)]. 3 active indexers
+2023-01-02 11:53:16.2|Info|DownloadDecisionMaker|Processing 9 releases
+2023-01-02 11:53:16.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E02 (02)]. 3 active indexers
+2023-01-02 11:53:18.2|Info|DownloadDecisionMaker|Processing 12 releases
+2023-01-02 11:53:18.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E03 (03)]. 3 active indexers
+2023-01-02 11:53:20.0|Info|DownloadDecisionMaker|Processing 14 releases
+2023-01-02 11:53:20.0|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E04 (04)]. 3 active indexers
+2023-01-02 11:53:22.0|Info|DownloadDecisionMaker|Processing 19 releases
+2023-01-02 11:53:22.1|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E05 (05)]. 3 active indexers
+2023-01-02 11:53:24.3|Info|DownloadDecisionMaker|Processing 18 releases
+2023-01-02 11:53:24.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E06 (06)]. 3 active indexers
+2023-01-02 11:53:25.9|Info|DownloadDecisionMaker|Processing 19 releases
+2023-01-02 11:53:26.0|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E07 (07)]. 3 active indexers
+2023-01-02 11:53:28.1|Info|DownloadDecisionMaker|Processing 18 releases
+2023-01-02 11:53:28.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E08 (08)]. 3 active indexers
+2023-01-02 11:53:30.1|Info|DownloadDecisionMaker|Processing 19 releases
+2023-01-02 11:53:30.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E09 (09)]. 3 active indexers
+2023-01-02 11:53:32.2|Info|DownloadDecisionMaker|Processing 21 releases
+2023-01-02 11:53:32.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E10 (10)]. 3 active indexers
+2023-01-02 11:53:34.1|Info|DownloadDecisionMaker|Processing 48 releases
+2023-01-02 11:53:34.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E11 (11)]. 3 active indexers
+2023-01-02 11:53:36.3|Info|DownloadDecisionMaker|Processing 25 releases
+2023-01-02 11:53:36.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E12 (12)]. 3 active indexers
+2023-01-02 11:53:38.1|Info|DownloadDecisionMaker|Processing 30 releases
+2023-01-02 11:53:38.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E13 (13)]. 3 active indexers
+2023-01-02 11:53:40.3|Info|DownloadDecisionMaker|Processing 34 releases
+2023-01-02 11:53:40.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E14 (14)]. 3 active indexers
+2023-01-02 11:53:42.3|Info|DownloadDecisionMaker|Processing 35 releases
+2023-01-02 11:53:42.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E15 (15)]. 3 active indexers
+2023-01-02 11:53:44.2|Info|DownloadDecisionMaker|Processing 35 releases
+2023-01-02 11:53:44.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E16 (16)]. 3 active indexers
+2023-01-02 11:53:46.3|Info|DownloadDecisionMaker|Processing 34 releases
+2023-01-02 11:53:46.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E17 (17)]. 3 active indexers
+2023-01-02 11:53:48.2|Info|DownloadDecisionMaker|Processing 37 releases
+2023-01-02 11:53:48.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E18 (18)]. 3 active indexers
+2023-01-02 11:53:50.1|Info|DownloadDecisionMaker|Processing 38 releases
+2023-01-02 11:53:50.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E19 (19)]. 3 active indexers
+2023-01-02 11:53:52.2|Info|DownloadDecisionMaker|Processing 39 releases
+2023-01-02 11:53:52.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E20 (20)]. 3 active indexers
+2023-01-02 11:53:54.1|Info|DownloadDecisionMaker|Processing 18 releases
+2023-01-02 11:53:54.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E21 (21)]. 3 active indexers
+2023-01-02 11:53:56.1|Info|DownloadDecisionMaker|Processing 42 releases
+2023-01-02 11:53:56.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E22 (22)]. 3 active indexers
+2023-01-02 11:53:58.2|Info|DownloadDecisionMaker|Processing 42 releases
+2023-01-02 11:53:58.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E23 (23)]. 3 active indexers
+2023-01-02 11:54:00.3|Info|DownloadDecisionMaker|Processing 40 releases
+2023-01-02 11:54:00.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E24 (24)]. 3 active indexers
+2023-01-02 11:54:02.2|Info|DownloadDecisionMaker|Processing 37 releases
+2023-01-02 11:54:02.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E25 (25)]. 3 active indexers
+2023-01-02 11:54:04.2|Info|DownloadDecisionMaker|Processing 45 releases
+2023-01-02 11:54:04.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E26 (26)]. 3 active indexers
+2023-01-02 11:54:06.3|Info|DownloadDecisionMaker|Processing 46 releases
+2023-01-02 11:54:06.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E27 (27)]. 3 active indexers
+2023-01-02 11:54:08.2|Info|DownloadDecisionMaker|Processing 49 releases
+2023-01-02 11:54:08.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E28 (28)]. 3 active indexers
+2023-01-02 11:54:10.3|Info|DownloadDecisionMaker|Processing 26 releases
+2023-01-02 11:54:10.4|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E29 (29)]. 3 active indexers
+2023-01-02 11:54:12.1|Info|DownloadDecisionMaker|Processing 24 releases
+2023-01-02 11:54:12.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E30 (30)]. 3 active indexers
+2023-01-02 11:54:14.1|Info|DownloadDecisionMaker|Processing 24 releases
+2023-01-02 11:54:14.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E31 (31)]. 3 active indexers
+2023-01-02 11:54:16.2|Info|DownloadDecisionMaker|Processing 18 releases
+2023-01-02 11:54:16.3|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E32 (32)]. 3 active indexers
+2023-01-02 11:54:18.1|Info|DownloadDecisionMaker|Processing 14 releases
+2023-01-02 11:54:18.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E33 (33)]. 3 active indexers
+2023-01-02 11:54:20.0|Info|DownloadDecisionMaker|Processing 25 releases
+2023-01-02 11:54:20.1|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E34 (34)]. 3 active indexers
+2023-01-02 11:54:23.1|Info|DownloadDecisionMaker|Processing 26 releases
+2023-01-02 11:54:23.2|Info|ReleaseSearchService|Searching indexers for [Naruto : S01E35 (35)]. 3 active indexers
+2023-01-02 11:54:26.9|Info|DownloadDecisionMaker|Processing 25 releases
+2023-01-02 12:02:26.9|Info|AddSeriesService|Adding Series [321285][Boruto: Naruto Next Generations] Path: [/tv/Boruto - Naruto Next Generations]
+2023-01-02 12:02:26.9|Info|RefreshSeriesService|Updating Boruto: Naruto Next Generations
+2023-01-02 12:02:26.9|Info|RefreshEpisodeService|Starting episode info refresh for: [321285][Boruto: Naruto Next Generations]
+2023-01-02 12:02:27.1|Info|RefreshEpisodeService|Finished episode refresh for series: [321285][Boruto: Naruto Next Generations].
+2023-01-02 12:02:28.1|Info|MediaCoverService|Downloading Banner for [321285][Boruto: Naruto Next Generations] https://artworks.thetvdb.com/banners/graphical/321285-g.jpg
+2023-01-02 12:02:28.1|Warn|DiskScanService|Series' root folder (/tv/) is empty.
+2023-01-02 12:02:28.1|Info|SeriesScannedHandler|[Boruto: Naruto Next Generations] was recently added, performing post-add actions
+2023-01-02 12:02:28.2|Info|MediaCoverService|Downloading Poster for [321285][Boruto: Naruto Next Generations] https://artworks.thetvdb.com/banners/posters/321285-2.jpg
+2023-01-02 12:02:28.2|Info|EpisodeSearchService|Performing search for 281 episodes
+2023-01-02 12:02:28.2|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E01 (01)]. 5 active indexers
+2023-01-02 12:02:28.2|Info|MediaCoverService|Downloading Fanart for [321285][Boruto: Naruto Next Generations] https://artworks.thetvdb.com/banners/fanart/original/321285-1.jpg
+2023-01-02 12:02:30.7|Info|DownloadDecisionMaker|Processing 15 releases
+2023-01-02 12:02:31.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E02 (02)]. 5 active indexers
+2023-01-02 12:02:31.4|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2023-01-02 12:02:34.7|Info|DownloadDecisionMaker|Processing 22 releases
+2023-01-02 12:02:34.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E03 (03)]. 5 active indexers
+2023-01-02 12:02:38.7|Info|DownloadDecisionMaker|Processing 26 releases
+2023-01-02 12:02:39.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E04 (04)]. 5 active indexers
+2023-01-02 12:02:42.7|Info|DownloadDecisionMaker|Processing 33 releases
+2023-01-02 12:02:43.1|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E05 (05)]. 5 active indexers
+2023-01-02 12:02:44.7|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E281 (281)]. 5 active indexers
+2023-01-02 12:02:48.6|Info|DownloadDecisionMaker|Processing 30 releases
+2023-01-02 12:02:48.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E06 (06)]. 5 active indexers
+2023-01-02 12:02:50.7|Info|DownloadDecisionMaker|Processing 9 releases
+2023-01-02 12:02:50.8|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2023-01-02 12:02:54.7|Info|DownloadDecisionMaker|Processing 29 releases
+2023-01-02 12:02:55.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E07 (07)]. 5 active indexers
+2023-01-02 12:02:58.8|Info|DownloadDecisionMaker|Processing 29 releases
+2023-01-02 12:02:59.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E08 (08)]. 5 active indexers
+2023-01-02 12:03:02.6|Info|DownloadDecisionMaker|Processing 32 releases
+2023-01-02 12:03:03.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E09 (09)]. 5 active indexers
+2023-01-02 12:03:03.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E285 (00)]. 5 active indexers
+2023-01-02 12:03:08.8|Info|DownloadDecisionMaker|Processing 32 releases
+2023-01-02 12:03:09.1|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E10 (10)]. 5 active indexers
+2023-01-02 12:03:10.8|Info|DownloadDecisionMaker|Processing 13 releases
+2023-01-02 12:03:14.8|Info|DownloadDecisionMaker|Processing 60 releases
+2023-01-02 12:03:15.3|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E11 (11)]. 5 active indexers
+2023-01-02 12:03:18.8|Info|DownloadDecisionMaker|Processing 57 releases
+2023-01-02 12:03:19.2|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E12 (12)]. 5 active indexers
+2023-01-02 12:03:22.7|Info|DownloadDecisionMaker|Processing 58 releases
+2023-01-02 12:03:23.4|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E13 (13)]. 5 active indexers
+2023-01-02 12:03:26.7|Info|DownloadDecisionMaker|Processing 54 releases
+2023-01-02 12:03:27.3|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E14 (14)]. 5 active indexers
+2023-01-02 12:03:30.6|Info|ReleaseSearchService|Searching indexers for [How I Met Your Mother : S09]. 5 active indexers
+2023-01-02 12:03:30.8|Info|DownloadDecisionMaker|Processing 56 releases
+2023-01-02 12:03:31.5|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E15 (15)]. 5 active indexers
+2023-01-02 12:03:36.8|Info|DownloadDecisionMaker|Processing 37 releases
+2023-01-02 12:03:38.8|Info|DownloadDecisionMaker|Processing 56 releases
+2023-01-02 12:03:39.3|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E16 (16)]. 5 active indexers
+2023-01-02 12:03:42.7|Info|DownloadDecisionMaker|Processing 53 releases
+2023-01-02 12:03:43.2|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E17 (17)]. 5 active indexers
+2023-01-02 12:03:46.7|Info|DownloadDecisionMaker|Processing 54 releases
+2023-01-02 12:03:47.3|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E18 (18)]. 5 active indexers
+2023-01-02 12:03:50.6|Info|DownloadDecisionMaker|Processing 54 releases
+2023-01-02 12:03:51.3|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E19 (19)]. 5 active indexers
+2023-01-02 12:03:54.8|Info|DownloadDecisionMaker|Processing 54 releases
+2023-01-02 12:03:55.5|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E20 (20)]. 5 active indexers
+2023-01-02 12:03:58.8|Info|DownloadDecisionMaker|Processing 30 releases
+2023-01-02 12:03:59.1|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E21 (21)]. 5 active indexers
+2023-01-02 12:04:02.8|Info|DownloadDecisionMaker|Processing 54 releases
+2023-01-02 12:04:03.3|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E22 (22)]. 5 active indexers
+2023-01-02 12:04:06.8|Info|DownloadDecisionMaker|Processing 56 releases
+2023-01-02 12:04:07.4|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E23 (23)]. 5 active indexers
+2023-01-02 12:04:10.7|Info|DownloadDecisionMaker|Processing 53 releases
+2023-01-02 12:04:11.3|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E24 (24)]. 5 active indexers
+2023-01-02 12:04:14.7|Info|DownloadDecisionMaker|Processing 49 releases
+2023-01-02 12:04:15.3|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E25 (25)]. 5 active indexers
+2023-01-02 12:04:18.6|Info|DownloadDecisionMaker|Processing 57 releases
+2023-01-02 12:04:19.2|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E26 (26)]. 5 active indexers
+2023-01-02 12:04:22.7|Info|DownloadDecisionMaker|Processing 54 releases
+2023-01-02 12:04:23.2|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E27 (27)]. 5 active indexers
+2023-01-02 12:04:26.9|Info|DownloadDecisionMaker|Processing 54 releases
+2023-01-02 12:04:27.3|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E28 (28)]. 5 active indexers
+2023-01-02 12:04:30.8|Info|DownloadDecisionMaker|Processing 44 releases
+2023-01-02 12:04:31.1|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E29 (29)]. 5 active indexers
+2023-01-02 12:04:34.6|Info|DownloadDecisionMaker|Processing 26 releases
+2023-01-02 12:04:34.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E30 (30)]. 5 active indexers
+2023-01-02 12:04:38.8|Info|DownloadDecisionMaker|Processing 30 releases
+2023-01-02 12:04:39.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E31 (31)]. 5 active indexers
+2023-01-02 12:04:42.8|Info|DownloadDecisionMaker|Processing 33 releases
+2023-01-02 12:04:43.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E32 (32)]. 5 active indexers
+2023-01-02 12:04:46.7|Info|DownloadDecisionMaker|Processing 31 releases
+2023-01-02 12:04:47.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E33 (33)]. 5 active indexers
+2023-01-02 12:04:50.9|Info|DownloadDecisionMaker|Processing 28 releases
+2023-01-02 12:04:51.1|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E34 (34)]. 5 active indexers
+2023-01-02 12:04:54.7|Info|DownloadDecisionMaker|Processing 29 releases
+2023-01-02 12:04:55.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E35 (35)]. 5 active indexers
+2023-01-02 12:04:59.1|Info|DownloadDecisionMaker|Processing 28 releases
+2023-01-02 12:04:59.4|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E36 (36)]. 5 active indexers
+2023-01-02 12:05:02.7|Info|DownloadDecisionMaker|Processing 31 releases
+2023-01-02 12:05:03.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E37 (37)]. 5 active indexers
+2023-01-02 12:05:06.6|Info|DownloadDecisionMaker|Processing 32 releases
+2023-01-02 12:05:06.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E38 (38)]. 5 active indexers
+2023-01-02 12:05:10.7|Info|DownloadDecisionMaker|Processing 26 releases
+2023-01-02 12:05:11.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E39 (39)]. 5 active indexers
+2023-01-02 12:05:14.6|Info|DownloadDecisionMaker|Processing 28 releases
+2023-01-02 12:05:14.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E40 (40)]. 5 active indexers
+2023-01-02 12:05:18.9|Info|DownloadDecisionMaker|Processing 28 releases
+2023-01-02 12:05:19.2|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E41 (41)]. 5 active indexers
+2023-01-02 12:05:22.7|Info|DownloadDecisionMaker|Processing 26 releases
+2023-01-02 12:05:22.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E42 (42)]. 5 active indexers
+2023-01-02 12:05:26.8|Info|DownloadDecisionMaker|Processing 27 releases
+2023-01-02 12:05:27.1|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E43 (43)]. 5 active indexers
+2023-01-02 12:05:30.9|Info|DownloadDecisionMaker|Processing 27 releases
+2023-01-02 12:05:31.1|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E44 (44)]. 5 active indexers
+2023-01-02 12:05:34.7|Info|DownloadDecisionMaker|Processing 26 releases
+2023-01-02 12:05:35.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E45 (45)]. 5 active indexers
+2023-01-02 12:05:38.6|Info|DownloadDecisionMaker|Processing 23 releases
+2023-01-02 12:05:38.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E46 (46)]. 5 active indexers
+2023-01-02 12:05:43.1|Info|DownloadDecisionMaker|Processing 26 releases
+2023-01-02 12:05:43.3|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E47 (47)]. 5 active indexers
+2023-01-02 12:05:46.8|Info|DownloadDecisionMaker|Processing 26 releases
+2023-01-02 12:05:47.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E48 (48)]. 5 active indexers
+2023-01-02 12:05:50.9|Info|DownloadDecisionMaker|Processing 47 releases
+2023-01-02 12:05:51.3|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E49 (49)]. 5 active indexers
+2023-01-02 12:05:54.7|Info|DownloadDecisionMaker|Processing 23 releases
+2023-01-02 12:05:54.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E50 (50)]. 5 active indexers
+2023-01-02 12:05:59.2|Info|DownloadDecisionMaker|Processing 28 releases
+2023-01-02 12:05:59.4|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E51 (51)]. 5 active indexers
+2023-01-02 12:06:02.6|Info|DownloadDecisionMaker|Processing 22 releases
+2023-01-02 12:06:02.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E52 (52)]. 5 active indexers
+2023-01-02 12:06:06.8|Info|DownloadDecisionMaker|Processing 24 releases
+2023-01-02 12:06:07.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E53 (53)]. 5 active indexers
+2023-01-02 12:06:10.7|Info|DownloadDecisionMaker|Processing 21 releases
+2023-01-02 12:06:10.7|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E01 (01)]. 5 active indexers
+2023-01-02 12:06:10.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E54 (54)]. 5 active indexers
+2023-01-02 12:06:13.4|Info|DownloadDecisionMaker|Processing 55 releases
+2023-01-02 12:06:13.7|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E02 (02)]. 5 active indexers
+2023-01-02 12:06:13.8|Info|RssSyncService|Starting RSS Sync
+2023-01-02 12:06:17.2|Info|DownloadDecisionMaker|Processing 22 releases
+2023-01-02 12:06:17.4|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E03 (03)]. 5 active indexers
+2023-01-02 12:06:18.4|Warn|Torznab|Indexer Torrent911 (Prowlarr) rss sync didn't cover the period between 1/2/2023 10:50:45 AM and 1/2/2023 11:06:18 AM UTC. Search may be required.
+2023-01-02 12:06:18.6|Warn|Torznab|Indexer GkTorrent (Prowlarr) rss sync didn't cover the period between 1/2/2023 10:50:45 AM and 1/2/2023 11:06:18 AM UTC. Search may be required.
+2023-01-02 12:06:18.6|Info|DownloadDecisionMaker|Processing 79 releases
+2023-01-02 12:06:18.7|Info|RssSyncService|RSS Sync Completed. Reports found: 79, Reports grabbed: 0
+2023-01-02 12:06:20.9|Info|DownloadDecisionMaker|Processing 21 releases
+2023-01-02 12:06:21.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E55 (55)]. 5 active indexers
+2023-01-02 12:06:23.4|Info|DownloadDecisionMaker|Processing 20 releases
+2023-01-02 12:06:23.5|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E04 (04)]. 5 active indexers
+2023-01-02 12:06:27.2|Info|DownloadDecisionMaker|Processing 19 releases
+2023-01-02 12:06:27.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E05 (05)]. 5 active indexers
+2023-01-02 12:06:28.8|Info|DownloadDecisionMaker|Processing 23 releases
+2023-01-02 12:06:29.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E56 (56)]. 5 active indexers
+2023-01-02 12:06:31.3|Info|DownloadDecisionMaker|Processing 18 releases
+2023-01-02 12:06:31.4|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E06 (06)]. 5 active indexers
+2023-01-02 12:06:35.2|Info|DownloadDecisionMaker|Processing 19 releases
+2023-01-02 12:06:35.3|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E07 (07)]. 5 active indexers
+2023-01-02 12:06:36.7|Info|DownloadDecisionMaker|Processing 19 releases
+2023-01-02 12:06:36.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E57 (57)]. 5 active indexers
+2023-01-02 12:06:39.3|Info|DownloadDecisionMaker|Processing 18 releases
+2023-01-02 12:06:39.4|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E08 (08)]. 5 active indexers
+2023-01-02 12:06:43.4|Info|DownloadDecisionMaker|Processing 49 releases
+2023-01-02 12:06:43.7|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E09 (09)]. 5 active indexers
+2023-01-02 12:06:44.8|Info|DownloadDecisionMaker|Processing 21 releases
+2023-01-02 12:06:45.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E58 (58)]. 5 active indexers
+2023-01-02 12:06:46.7|Info|DownloadDecisionMaker|Processing 3 releases
+2023-01-02 12:06:46.8|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E10 (10)]. 5 active indexers
+2023-01-02 12:06:50.8|Info|DownloadDecisionMaker|Processing 36 releases
+2023-01-02 12:06:51.0|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E11 (11)]. 5 active indexers
+2023-01-02 12:06:52.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:06:52.7|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E59 (59)]. 5 active indexers
+2023-01-02 12:06:54.7|Info|DownloadDecisionMaker|Processing 3 releases
+2023-01-02 12:06:54.7|Info|ReleaseSearchService|Searching indexers for [Chainsaw Man : S01E12 (12)]. 5 active indexers
+2023-01-02 12:06:58.7|Info|DownloadDecisionMaker|Processing 3 releases
+2023-01-02 12:07:00.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:00.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E60 (60)]. 5 active indexers
+2023-01-02 12:07:04.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:04.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E61 (61)]. 5 active indexers
+2023-01-02 12:07:09.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:09.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E62 (62)]. 5 active indexers
+2023-01-02 12:07:12.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:12.7|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E63 (63)]. 5 active indexers
+2023-01-02 12:07:16.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:16.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E64 (64)]. 5 active indexers
+2023-01-02 12:07:20.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:20.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E65 (65)]. 5 active indexers
+2023-01-02 12:07:24.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:24.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E66 (66)]. 5 active indexers
+2023-01-02 12:07:28.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:28.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E67 (67)]. 5 active indexers
+2023-01-02 12:07:32.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:32.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E68 (68)]. 5 active indexers
+2023-01-02 12:07:36.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:36.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E69 (69)]. 5 active indexers
+2023-01-02 12:07:40.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:40.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E70 (70)]. 5 active indexers
+2023-01-02 12:07:44.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:44.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E71 (71)]. 5 active indexers
+2023-01-02 12:07:49.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:49.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E72 (72)]. 5 active indexers
+2023-01-02 12:07:52.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:52.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E73 (73)]. 5 active indexers
+2023-01-02 12:07:56.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:07:56.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E74 (74)]. 5 active indexers
+2023-01-02 12:08:00.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:08:00.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E75 (75)]. 5 active indexers
+2023-01-02 12:08:04.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:08:04.7|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E76 (76)]. 5 active indexers
+2023-01-02 12:08:06.3|Info|ReleaseSearchService|Searching indexers for [The Amazing World of Gumball : S06]. 5 active indexers
+2023-01-02 12:08:09.0|Info|ReleaseSearchService|Searching indexers for [The Amazing World of Gumball : S02]. 5 active indexers
+2023-01-02 12:08:10.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:08:10.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E77 (77)]. 5 active indexers
+2023-01-02 12:08:14.6|Info|ReleaseSearchService|Searching indexers for [The Amazing World of Gumball : S02]. 5 active indexers
+2023-01-02 12:08:24.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:08:24.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E78 (78)]. 5 active indexers
+2023-01-02 12:08:26.8|Info|DownloadDecisionMaker|Processing 37 releases
+2023-01-02 12:08:36.8|Info|DownloadDecisionMaker|Processing 37 releases
+2023-01-02 12:08:38.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:08:38.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E79 (79)]. 5 active indexers
+2023-01-02 12:08:40.8|Info|DownloadDecisionMaker|Processing 37 releases
+2023-01-02 12:08:45.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:08:45.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E80 (80)]. 5 active indexers
+2023-01-02 12:08:48.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:08:48.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E81 (81)]. 5 active indexers
+2023-01-02 12:08:52.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:08:52.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E82 (82)]. 5 active indexers
+2023-01-02 12:08:56.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:08:56.8|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E83 (83)]. 5 active indexers
+2023-01-02 12:09:00.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:09:00.9|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E84 (84)]. 5 active indexers
+2023-01-02 12:09:04.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:09:05.0|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E85 (85)]. 5 active indexers
+2023-01-02 12:09:09.4|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:09:09.4|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E86 (86)]. 5 active indexers
+2023-01-02 12:09:13.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:09:13.3|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E87 (87)]. 5 active indexers
+2023-01-02 12:09:17.5|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:09:17.5|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E88 (88)]. 5 active indexers
+2023-01-02 12:09:21.5|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:09:21.5|Info|ReleaseSearchService|Searching indexers for [Boruto: Naruto Next Generations : S01E89 (89)]. 5 active indexers
+2023-01-02 12:09:36.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-02 12:09:37.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 12:09:37.2|Info|Router|Application mode: Interactive
+2023-01-02 12:09:37.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 12:09:37.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 12:09:37.7|Info|OwinHostController|Listening on the following URLs:
+2023-01-02 12:09:37.8|Info|OwinHostController|  http://*:8989/
+2023-01-02 12:09:38.2|Info|SonarrBootstrapper|Starting Web Server
+2023-01-02 12:11:23.0|Info|AddSeriesService|Adding Series [81797][One Piece] Path: [/tv/One Piece]
+2023-01-02 12:11:23.0|Info|SceneMappingService|Updating Scene mappings
+2023-01-02 12:11:23.0|Info|RefreshSeriesService|Updating One Piece
+2023-01-02 12:11:23.2|Info|RefreshEpisodeService|Starting episode info refresh for: [81797][One Piece]
+2023-01-02 12:11:23.3|Info|RefreshEpisodeService|Finished episode refresh for series: [81797][One Piece].
+2023-01-02 12:11:24.7|Info|MediaCoverService|Downloading Banner for [81797][One Piece] https://artworks.thetvdb.com/banners/graphical/81797-g2.jpg
+2023-01-02 12:11:24.7|Warn|DiskScanService|Series' root folder (/tv/) is empty.
+2023-01-02 12:11:24.7|Info|SeriesScannedHandler|[One Piece] was recently added, performing post-add actions
+2023-01-02 12:11:24.7|Info|MediaCoverService|Downloading Poster for [81797][One Piece] https://artworks.thetvdb.com/banners/posters/81797-4.jpg
+2023-01-02 12:11:24.8|Info|MediaCoverService|Downloading Fanart for [81797][One Piece] https://artworks.thetvdb.com/banners/series/81797/backgrounds/5fc04e62ebaba.jpg
+2023-01-02 12:11:25.2|Info|EpisodeSearchService|Performing search for 39 episodes
+2023-01-02 12:11:25.2|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E92 (92)]. 5 active indexers
+2023-01-02 12:11:25.2|Warn|Torznab|GkTorrent (Prowlarr)  Error: ConnectFailure (Connection refused): 'http://172.24.0.2:9696/3/api?t=caps&apikey=(removed)
+2023-01-02 12:11:25.2|Warn|Torznab|Tokyo Toshokan (Prowlarr)  Error: ConnectFailure (Connection refused): 'http://172.24.0.2:9696/1/api?t=caps&apikey=(removed)
+2023-01-02 12:11:25.3|Warn|Torznab|Torrent911 (Prowlarr)  Error: ConnectFailure (Connection refused): 'http://172.24.0.2:9696/2/api?t=caps&apikey=(removed)
+2023-01-02 12:11:25.7|Info|DownloadDecisionMaker|Processing 12 releases
+2023-01-02 12:11:25.9|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E93 (93)]. 2 active indexers
+2023-01-02 12:11:27.7|Info|DownloadDecisionMaker|Processing 12 releases
+2023-01-02 12:11:27.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E94 (94)]. 2 active indexers
+2023-01-02 12:11:28.5|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2023-01-02 12:11:29.6|Info|DownloadDecisionMaker|Processing 12 releases
+2023-01-02 12:11:29.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E95 (95)]. 2 active indexers
+2023-01-02 12:11:32.0|Info|DownloadDecisionMaker|Processing 12 releases
+2023-01-02 12:11:32.0|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E892 (892)]. 2 active indexers
+2023-01-02 12:11:32.1|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E96 (96)]. 2 active indexers
+2023-01-02 12:11:33.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:11:33.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E893 (893)]. 2 active indexers
+2023-01-02 12:11:35.7|Info|DownloadDecisionMaker|Processing 12 releases
+2023-01-02 12:11:35.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E97 (97)]. 2 active indexers
+2023-01-02 12:11:37.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:11:37.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E894 (894)]. 2 active indexers
+2023-01-02 12:11:39.8|Info|DownloadDecisionMaker|Processing 12 releases
+2023-01-02 12:11:39.9|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E98 (98)]. 2 active indexers
+2023-01-02 12:11:41.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:11:41.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E895 (895)]. 2 active indexers
+2023-01-02 12:11:43.7|Info|DownloadDecisionMaker|Processing 12 releases
+2023-01-02 12:11:43.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E99 (99)]. 2 active indexers
+2023-01-02 12:11:45.6|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:11:45.6|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E896 (896)]. 2 active indexers
+2023-01-02 12:11:47.9|Info|DownloadDecisionMaker|Processing 11 releases
+2023-01-02 12:11:48.0|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E100 (100)]. 2 active indexers
+2023-01-02 12:11:49.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:11:49.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E897 (897)]. 2 active indexers
+2023-01-02 12:11:51.6|Info|DownloadDecisionMaker|Processing 11 releases
+2023-01-02 12:11:51.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E102 (102)]. 2 active indexers
+2023-01-02 12:11:53.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:11:53.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E898 (898)]. 2 active indexers
+2023-01-02 12:11:55.7|Info|DownloadDecisionMaker|Processing 10 releases
+2023-01-02 12:11:55.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E104 (104)]. 2 active indexers
+2023-01-02 12:11:57.8|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:11:57.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E899 (899)]. 2 active indexers
+2023-01-02 12:11:59.8|Info|DownloadDecisionMaker|Processing 6 releases
+2023-01-02 12:11:59.9|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E103 (103)]. 2 active indexers
+2023-01-02 12:12:01.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:01.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E900 (900)]. 2 active indexers
+2023-01-02 12:12:03.6|Info|DownloadDecisionMaker|Processing 12 releases
+2023-01-02 12:12:03.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E101 (101)]. 2 active indexers
+2023-01-02 12:12:05.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:05.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E901 (901)]. 2 active indexers
+2023-01-02 12:12:07.7|Info|DownloadDecisionMaker|Processing 10 releases
+2023-01-02 12:12:07.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E105 (105)]. 2 active indexers
+2023-01-02 12:12:09.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:09.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E902 (902)]. 2 active indexers
+2023-01-02 12:12:11.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:11.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E106 (106)]. 2 active indexers
+2023-01-02 12:12:13.6|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:13.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E903 (903)]. 2 active indexers
+2023-01-02 12:12:15.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:15.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E107 (107)]. 2 active indexers
+2023-01-02 12:12:17.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:17.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E904 (904)]. 2 active indexers
+2023-01-02 12:12:19.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:19.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E108 (108)]. 2 active indexers
+2023-01-02 12:12:21.8|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:21.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E905 (905)]. 2 active indexers
+2023-01-02 12:12:23.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:23.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E109 (109)]. 2 active indexers
+2023-01-02 12:12:25.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:25.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E906 (906)]. 2 active indexers
+2023-01-02 12:12:27.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:27.6|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E110 (110)]. 2 active indexers
+2023-01-02 12:12:29.8|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:29.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E907 (907)]. 2 active indexers
+2023-01-02 12:12:31.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:31.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E111 (111)]. 2 active indexers
+2023-01-02 12:12:33.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:33.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E908 (908)]. 2 active indexers
+2023-01-02 12:12:35.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:35.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E112 (112)]. 2 active indexers
+2023-01-02 12:12:37.6|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:37.6|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E909 (909)]. 2 active indexers
+2023-01-02 12:12:39.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:39.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E113 (113)]. 2 active indexers
+2023-01-02 12:12:41.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:41.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E910 (910)]. 2 active indexers
+2023-01-02 12:12:43.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:43.6|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E114 (114)]. 2 active indexers
+2023-01-02 12:12:45.8|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:45.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E911 (911)]. 2 active indexers
+2023-01-02 12:12:47.5|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:47.5|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E115 (115)]. 2 active indexers
+2023-01-02 12:12:49.6|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:49.6|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E912 (912)]. 2 active indexers
+2023-01-02 12:12:51.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:51.6|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E116 (116)]. 2 active indexers
+2023-01-02 12:12:53.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:53.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E913 (913)]. 2 active indexers
+2023-01-02 12:12:55.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:55.9|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E117 (117)]. 2 active indexers
+2023-01-02 12:12:57.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:12:57.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E914 (914)]. 2 active indexers
+2023-01-02 12:12:59.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:12:59.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E118 (118)]. 2 active indexers
+2023-01-02 12:13:01.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:13:01.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E915 (915)]. 2 active indexers
+2023-01-02 12:13:03.5|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:13:03.5|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E119 (119)]. 2 active indexers
+2023-01-02 12:13:05.6|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:13:05.6|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E916 (916)]. 2 active indexers
+2023-01-02 12:13:07.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:13:07.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E120 (120)]. 2 active indexers
+2023-01-02 12:13:09.6|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:13:09.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E917 (917)]. 2 active indexers
+2023-01-02 12:13:11.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:13:11.9|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E121 (121)]. 2 active indexers
+2023-01-02 12:13:13.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:13:13.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E918 (918)]. 2 active indexers
+2023-01-02 12:13:15.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:13:15.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E122 (122)]. 2 active indexers
+2023-01-02 12:13:17.8|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:13:17.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E919 (919)]. 2 active indexers
+2023-01-02 12:13:19.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:13:19.6|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E123 (123)]. 2 active indexers
+2023-01-02 12:13:21.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:13:21.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E920 (920)]. 2 active indexers
+2023-01-02 12:13:23.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:13:23.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E124 (124)]. 2 active indexers
+2023-01-02 12:13:25.7|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:13:25.7|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E921 (921)]. 2 active indexers
+2023-01-02 12:13:27.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:13:27.6|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E125 (125)]. 2 active indexers
+2023-01-02 12:13:29.8|Info|DownloadDecisionMaker|Processing 1 releases
+2023-01-02 12:13:29.8|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E922 (922)]. 2 active indexers
+2023-01-02 12:13:31.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:13:31.6|Info|ReleaseSearchService|Searching indexers for [One Piece : S01E126 (126)]. 2 active indexers
+2023-01-02 12:22:32.9|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-02 12:22:33.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 12:22:33.4|Info|Router|Application mode: Interactive
+2023-01-02 12:22:33.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 12:22:33.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 12:22:34.0|Info|OwinHostController|Listening on the following URLs:
+2023-01-02 12:22:34.0|Info|OwinHostController|  http://*:8989/
+2023-01-02 12:22:34.5|Info|SonarrBootstrapper|Starting Web Server
+2023-01-02 12:23:05.4|Info|RssSyncService|Starting RSS Sync
+2023-01-02 12:23:05.5|Warn|Torznab|GkTorrent (Prowlarr)  Error: ConnectFailure (Connection refused): 'http://172.24.0.2:9696/3/api?t=caps&apikey=(removed)
+2023-01-02 12:23:05.5|Warn|Torznab|Tokyo Toshokan (Prowlarr)  Error: ConnectFailure (Connection refused): 'http://172.24.0.2:9696/1/api?t=caps&apikey=(removed)
+2023-01-02 12:23:05.5|Warn|Torznab|Torrent911 (Prowlarr)  Error: ConnectFailure (Connection refused): 'http://172.24.0.2:9696/2/api?t=caps&apikey=(removed)
+2023-01-02 12:23:06.2|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 1/2/2023 11:06:18 AM and 1/2/2023 11:23:06 AM UTC. Search may be required.
+2023-01-02 12:23:06.3|Warn|Torznab|Indexer Torrent9 (Prowlarr) rss sync didn't cover the period between 1/2/2023 11:06:14 AM and 1/2/2023 11:23:06 AM UTC. Search may be required.
+2023-01-02 12:23:06.3|Info|DownloadDecisionMaker|Processing 39 releases
+2023-01-02 12:23:06.5|Info|RssSyncService|RSS Sync Completed. Reports found: 39, Reports grabbed: 0
+2023-01-02 12:25:40.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-02 12:25:41.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 12:25:41.0|Info|Router|Application mode: Interactive
+2023-01-02 12:25:41.2|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 12:25:41.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 12:25:41.5|Info|OwinHostController|Listening on the following URLs:
+2023-01-02 12:25:41.5|Info|OwinHostController|  http://*:8989/
+2023-01-02 12:25:41.8|Info|SonarrBootstrapper|Starting Web Server
+2023-01-02 12:28:47.9|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-02 12:28:48.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 12:28:48.3|Info|Router|Application mode: Interactive
+2023-01-02 12:28:48.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 12:28:48.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 12:28:48.7|Info|OwinHostController|Listening on the following URLs:
+2023-01-02 12:28:48.7|Info|OwinHostController|  http://*:8989/
+2023-01-02 12:28:49.0|Info|SonarrBootstrapper|Starting Web Server
+2023-01-02 12:29:41.4|Info|AddSeriesService|Adding Series [426355][Lupin Zero] Path: [/tv/Lupin Zero]
+2023-01-02 12:29:41.4|Info|SceneMappingService|Updating Scene mappings
+2023-01-02 12:29:41.4|Info|RefreshSeriesService|Updating Lupin Zero
+2023-01-02 12:29:41.5|Info|RefreshEpisodeService|Starting episode info refresh for: [426355][Lupin Zero]
+2023-01-02 12:29:41.5|Info|RefreshEpisodeService|Finished episode refresh for series: [426355][Lupin Zero].
+2023-01-02 12:29:41.6|Info|MediaCoverService|Downloading Banner for [426355][Lupin Zero] https://artworks.thetvdb.com/banners/v4/series/426355/banners/639d7ff3e20d0.jpg
+2023-01-02 12:29:41.6|Warn|DiskScanService|Series' root folder (/tv/) is empty.
+2023-01-02 12:29:41.7|Info|SeriesScannedHandler|[Lupin Zero] was recently added, performing post-add actions
+2023-01-02 12:29:41.7|Info|EpisodeSearchService|Performing search for 4 episodes
+2023-01-02 12:29:41.7|Info|MediaCoverService|Downloading Poster for [426355][Lupin Zero] https://artworks.thetvdb.com/banners/v4/series/426355/posters/63b0f758d0ddc.jpg
+2023-01-02 12:29:41.7|Info|ReleaseSearchService|Searching indexers for [Lupin Zero : S01E01 (01)]. 5 active indexers
+2023-01-02 12:29:41.9|Warn|Torznab|Torrent9 (Prowlarr)  DNS Name Resolution Failure: 'prowlarr'
+2023-01-02 12:29:41.9|Warn|Torznab|Torrent9 clone (Prowlarr)  DNS Name Resolution Failure: 'prowlarr'
+2023-01-02 12:29:43.1|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2023-01-02 12:29:52.3|Info|ReleaseSearchService|Searching indexers for [Lupin Zero : S01E01 (01)]. 3 active indexers
+2023-01-02 12:30:34.5|Info|AddSeriesService|Adding Series [73871][Futurama] Path: [/tv/Futurama]
+2023-01-02 12:30:34.6|Info|RefreshSeriesService|Updating Futurama
+2023-01-02 12:30:34.7|Info|RefreshEpisodeService|Starting episode info refresh for: [73871][Futurama]
+2023-01-02 12:30:34.7|Info|RefreshEpisodeService|Finished episode refresh for series: [73871][Futurama].
+2023-01-02 12:30:34.7|Info|MediaCoverService|Downloading Banner for [73871][Futurama] https://artworks.thetvdb.com/banners/graphical/73871-g4.jpg
+2023-01-02 12:30:34.7|Warn|DiskScanService|Series' root folder (/tv/) is empty.
+2023-01-02 12:30:34.7|Info|SeriesScannedHandler|[Futurama] was recently added, performing post-add actions
+2023-01-02 12:30:34.7|Info|MediaCoverService|Downloading Poster for [73871][Futurama] https://artworks.thetvdb.com/banners/posters/73871-2.jpg
+2023-01-02 12:30:34.9|Info|EpisodeSearchService|Performing search for 9 episodes
+2023-01-02 12:30:34.9|Info|MediaCoverService|Downloading Fanart for [73871][Futurama] https://artworks.thetvdb.com/banners/fanart/original/73871-19.jpg
+2023-01-02 12:30:34.9|Info|ReleaseSearchService|Searching indexers for [Futurama : S01]. 3 active indexers
+2023-01-02 12:30:38.4|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2023-01-02 12:30:47.5|Info|ReleaseSearchService|Searching indexers for [Futurama : S01]. 3 active indexers
+2023-01-02 12:31:12.1|Info|ReleaseSearchService|Searching indexers for [How I Met Your Mother : S09]. 3 active indexers
+2023-01-02 12:31:21.8|Warn|Torznab|GkTorrent (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/3/api?t=caps&apikey=(removed)
+2023-01-02 12:31:21.8|Warn|Torznab|Torrent911 (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/2/api?t=caps&apikey=(removed)
+2023-01-02 12:31:21.8|Warn|Torznab|Tokyo Toshokan (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/1/api?t=caps&apikey=(removed)
+2023-01-02 12:31:21.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:31:21.8|Info|ReleaseSearchService|Searching indexers for [Lupin Zero : S01E02 (02)]. 0 active indexers
+2023-01-02 12:31:21.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:31:21.8|Info|ReleaseSearchService|Searching indexers for [Lupin Zero : S01E03 (03)]. 0 active indexers
+2023-01-02 12:31:21.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:31:21.8|Info|ReleaseSearchService|Searching indexers for [Lupin Zero : S01E04 (04)]. 0 active indexers
+2023-01-02 12:31:21.8|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:31:21.8|Info|EpisodeSearchService|Completed search for 4 episodes. 0 reports downloaded.
+2023-01-02 12:31:32.3|Warn|Torznab|GkTorrent (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/3/api?t=caps&apikey=(removed)
+2023-01-02 12:31:32.3|Warn|Torznab|Torrent911 (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/2/api?t=caps&apikey=(removed)
+2023-01-02 12:31:32.3|Warn|Torznab|Tokyo Toshokan (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/1/api?t=caps&apikey=(removed)
+2023-01-02 12:31:32.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:31:32.4|Info|ReleaseSearchService|Searching indexers for [Lupin Zero : S01E02 (02)]. 0 active indexers
+2023-01-02 12:31:32.4|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:31:32.4|Info|ReleaseSearchService|Searching indexers for [Lupin Zero : S01E03 (03)]. 0 active indexers
+2023-01-02 12:31:32.4|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:31:32.4|Info|ReleaseSearchService|Searching indexers for [Lupin Zero : S01E04 (04)]. 0 active indexers
+2023-01-02 12:31:32.4|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:32:14.9|Warn|Torznab|GkTorrent (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/3/api?t=caps&apikey=(removed)
+2023-01-02 12:32:14.9|Warn|Torznab|Tokyo Toshokan (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/1/api?t=caps&apikey=(removed)
+2023-01-02 12:32:14.9|Warn|Torznab|Torrent911 (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/2/api?t=caps&apikey=(removed)
+2023-01-02 12:32:14.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:32:14.9|Info|EpisodeSearchService|Completed search for 9 episodes. 0 reports downloaded.
+2023-01-02 12:32:27.5|Warn|Torznab|Torrent911 (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/2/api?t=caps&apikey=(removed)
+2023-01-02 12:32:27.5|Warn|Torznab|Tokyo Toshokan (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/1/api?t=caps&apikey=(removed)
+2023-01-02 12:32:27.5|Warn|Torznab|GkTorrent (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/3/api?t=caps&apikey=(removed)
+2023-01-02 12:32:27.6|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:32:52.1|Warn|Torznab|GkTorrent (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/3/api?t=caps&apikey=(removed)
+2023-01-02 12:32:52.1|Warn|Torznab|Torrent911 (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/2/api?t=caps&apikey=(removed)
+2023-01-02 12:32:52.1|Warn|Torznab|Tokyo Toshokan (Prowlarr) server is currently unavailable.  The operation has timed out.: 'http://172.24.0.2:9696/1/api?t=caps&apikey=(removed)
+2023-01-02 12:32:52.2|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:34:03.4|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-02 12:34:03.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-02 12:34:03.7|Info|Router|Application mode: Interactive
+2023-01-02 12:34:03.9|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 12:34:04.0|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-02 12:34:04.1|Info|OwinHostController|Listening on the following URLs:
+2023-01-02 12:34:04.1|Info|OwinHostController|  http://*:8989/
+2023-01-02 12:34:04.5|Info|SonarrBootstrapper|Starting Web Server
+2023-01-02 12:34:34.3|Info|ReleaseSearchService|Searching indexers for [Futurama : S01]. 0 active indexers
+2023-01-02 12:34:34.3|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:34:54.7|Info|AddSeriesService|Adding Series [393478][Tokyo Revengers] Path: [/tv/Tokyo Revengers]
+2023-01-02 12:34:54.7|Info|SceneMappingService|Updating Scene mappings
+2023-01-02 12:34:54.7|Info|RefreshSeriesService|Updating Tokyo Revengers
+2023-01-02 12:34:54.8|Info|RefreshEpisodeService|Starting episode info refresh for: [393478][Tokyo Revengers]
+2023-01-02 12:34:54.8|Info|RefreshEpisodeService|Finished episode refresh for series: [393478][Tokyo Revengers].
+2023-01-02 12:34:55.1|Info|MediaCoverService|Downloading Banner for [393478][Tokyo Revengers] https://artworks.thetvdb.com/banners/v4/series/393478/banners/61aa2b3170edc.jpg
+2023-01-02 12:34:55.1|Warn|DiskScanService|Series' root folder (/tv/) is empty.
+2023-01-02 12:34:55.1|Info|SeriesScannedHandler|[Tokyo Revengers] was recently added, performing post-add actions
+2023-01-02 12:34:55.1|Info|MediaCoverService|Downloading Poster for [393478][Tokyo Revengers] https://artworks.thetvdb.com/banners/v4/series/393478/posters/607204352bdb2.jpg
+2023-01-02 12:34:55.2|Info|MediaCoverService|Downloading Fanart for [393478][Tokyo Revengers] https://artworks.thetvdb.com/banners/v4/series/393478/backgrounds/60f3733aa53e2.jpg
+2023-01-02 12:34:55.4|Info|EpisodeSearchService|Performing search for 24 episodes
+2023-01-02 12:34:55.4|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E01 (01)]. 2 active indexers
+2023-01-02 12:34:57.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:34:57.9|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E02 (02)]. 2 active indexers
+2023-01-02 12:34:58.5|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2023-01-02 12:35:02.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:02.1|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E03 (03)]. 2 active indexers
+2023-01-02 12:35:06.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:06.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E04 (04)]. 2 active indexers
+2023-01-02 12:35:09.5|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E01 (01)]. 2 active indexers
+2023-01-02 12:35:09.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:09.9|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E05 (05)]. 2 active indexers
+2023-01-02 12:35:15.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:15.9|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E02 (02)]. 2 active indexers
+2023-01-02 12:35:18.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:18.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E06 (06)]. 2 active indexers
+2023-01-02 12:35:24.1|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:24.1|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E03 (03)]. 2 active indexers
+2023-01-02 12:35:26.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:26.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E07 (07)]. 2 active indexers
+2023-01-02 12:35:31.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:32.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E04 (04)]. 2 active indexers
+2023-01-02 12:35:34.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:34.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E08 (08)]. 2 active indexers
+2023-01-02 12:35:39.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:40.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E05 (05)]. 2 active indexers
+2023-01-02 12:35:41.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:42.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E09 (09)]. 2 active indexers
+2023-01-02 12:35:48.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:48.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E06 (06)]. 2 active indexers
+2023-01-02 12:35:50.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:50.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E10 (10)]. 2 active indexers
+2023-01-02 12:35:55.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:56.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E07 (07)]. 2 active indexers
+2023-01-02 12:35:58.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:35:58.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E11 (11)]. 2 active indexers
+2023-01-02 12:36:03.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:04.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E08 (08)]. 2 active indexers
+2023-01-02 12:36:06.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:06.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E12 (12)]. 2 active indexers
+2023-01-02 12:36:08.9|Info|ReleaseSearchService|Searching indexers for [How I Met Your Mother : S09]. 2 active indexers
+2023-01-02 12:36:12.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:12.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E09 (09)]. 2 active indexers
+2023-01-02 12:36:15.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:16.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E13 (13)]. 2 active indexers
+2023-01-02 12:36:20.0|Info|DownloadDecisionMaker|Processing 35 releases
+2023-01-02 12:36:23.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:23.9|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E10 (10)]. 2 active indexers
+2023-01-02 12:36:25.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:26.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E14 (14)]. 2 active indexers
+2023-01-02 12:36:31.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:32.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E11 (11)]. 2 active indexers
+2023-01-02 12:36:33.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:34.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E15 (15)]. 2 active indexers
+2023-01-02 12:36:39.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:40.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E12 (12)]. 2 active indexers
+2023-01-02 12:36:42.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:42.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E16 (16)]. 2 active indexers
+2023-01-02 12:36:47.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:47.9|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E13 (13)]. 2 active indexers
+2023-01-02 12:36:50.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:50.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E17 (17)]. 2 active indexers
+2023-01-02 12:36:55.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:56.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E14 (14)]. 2 active indexers
+2023-01-02 12:36:58.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:36:58.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E18 (18)]. 2 active indexers
+2023-01-02 12:37:02.6|Info|AddSeriesService|Adding Series [76372][The Fairly OddParents] Path: [/tv/The Fairly OddParents]
+2023-01-02 12:37:02.6|Info|RefreshSeriesService|Updating The Fairly OddParents
+2023-01-02 12:37:02.7|Info|RefreshEpisodeService|Starting episode info refresh for: [76372][The Fairly OddParents]
+2023-01-02 12:37:02.7|Info|RefreshEpisodeService|Finished episode refresh for series: [76372][The Fairly OddParents].
+2023-01-02 12:37:02.7|Info|MediaCoverService|Downloading Banner for [76372][The Fairly OddParents] https://artworks.thetvdb.com/banners/graphical/4034-g.jpg
+2023-01-02 12:37:02.7|Warn|DiskScanService|Series' root folder (/tv/) is empty.
+2023-01-02 12:37:02.7|Info|SeriesScannedHandler|[The Fairly OddParents] was recently added, performing post-add actions
+2023-01-02 12:37:02.8|Info|MediaCoverService|Downloading Poster for [76372][The Fairly OddParents] https://artworks.thetvdb.com/banners/posters/76372-4.jpg
+2023-01-02 12:37:02.8|Warn|MediaCoverMapper|File /config/MediaCover/10/poster.jpg not found
+2023-01-02 12:37:02.9|Info|MediaCoverService|Downloading Fanart for [76372][The Fairly OddParents] https://artworks.thetvdb.com/banners/v4/series/76372/backgrounds/62925421e72c3.jpg
+2023-01-02 12:37:02.9|Info|EpisodeSearchService|Performing search for 12 episodes
+2023-01-02 12:37:02.9|Info|ReleaseSearchService|Searching indexers for [The Fairly OddParents : S01]. 2 active indexers
+2023-01-02 12:37:04.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:37:04.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E15 (15)]. 2 active indexers
+2023-01-02 12:37:06.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:37:06.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E19 (19)]. 2 active indexers
+2023-01-02 12:37:06.2|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2023-01-02 12:37:14.9|Info|ReleaseSearchService|Searching indexers for [The Fairly OddParents : S01]. 2 active indexers
+2023-01-02 12:37:15.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:37:15.9|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E16 (16)]. 2 active indexers
+2023-01-02 12:37:18.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:37:18.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E20 (20)]. 2 active indexers
+2023-01-02 12:37:28.0|Info|DownloadDecisionMaker|Processing 24 releases
+2023-01-02 12:37:28.0|Info|EpisodeSearchService|Completed search for 12 episodes. 0 reports downloaded.
+2023-01-02 12:37:31.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:37:32.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E17 (17)]. 2 active indexers
+2023-01-02 12:37:34.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:37:34.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E21 (21)]. 2 active indexers
+2023-01-02 12:37:42.0|Info|DownloadDecisionMaker|Processing 24 releases
+2023-01-02 12:37:44.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:37:44.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E18 (18)]. 2 active indexers
+2023-01-02 12:37:46.1|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:37:46.1|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E22 (22)]. 2 active indexers
+2023-01-02 12:37:52.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:37:52.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E19 (19)]. 2 active indexers
+2023-01-02 12:37:54.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:37:54.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E23 (23)]. 5 active indexers
+2023-01-02 12:37:54.0|Warn|Torznab|GkTorrent (Prowlarr)  Error: ConnectFailure (Connection refused): 'http://172.24.0.2:9696/3/api?t=caps&apikey=(removed)
+2023-01-02 12:37:54.0|Warn|Torznab|Tokyo Toshokan (Prowlarr)  Error: ConnectFailure (Connection refused): 'http://172.24.0.2:9696/1/api?t=caps&apikey=(removed)
+2023-01-02 12:37:54.0|Warn|Torznab|Torrent911 (Prowlarr)  Error: ConnectFailure (Connection refused): 'http://172.24.0.2:9696/2/api?t=caps&apikey=(removed)
+2023-01-02 12:37:59.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:37:59.9|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E20 (20)]. 2 active indexers
+2023-01-02 12:38:02.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:38:02.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E24 (24)]. 2 active indexers
+2023-01-02 12:38:07.9|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:38:08.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E21 (21)]. 2 active indexers
+2023-01-02 12:38:10.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:38:10.0|Info|EpisodeSearchService|Completed search for 24 episodes. 0 reports downloaded.
+2023-01-02 12:38:14.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:38:14.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E22 (22)]. 2 active indexers
+2023-01-02 12:38:18.0|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:38:18.0|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E23 (23)]. 2 active indexers
+2023-01-02 12:38:21.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:38:21.8|Info|ReleaseSearchService|Searching indexers for [Tokyo Revengers : S01E24 (24)]. 2 active indexers
+2023-01-02 12:38:25.7|Info|DownloadDecisionMaker|No results found
+2023-01-02 12:38:35.2|Info|RssSyncService|Starting RSS Sync
+2023-01-02 12:38:35.6|Warn|Torznab|Indexer Torrent9 clone (Prowlarr) rss sync didn't cover the period between 1/2/2023 11:23:06 AM and 1/2/2023 11:38:35 AM UTC. Search may be required.
+2023-01-02 12:38:35.7|Warn|Torznab|Indexer Torrent9 (Prowlarr) rss sync didn't cover the period between 1/2/2023 11:23:06 AM and 1/2/2023 11:38:35 AM UTC. Search may be required.
+2023-01-02 12:38:35.7|Info|DownloadDecisionMaker|Processing 39 releases
+2023-01-02 12:38:35.7|Info|RssSyncService|RSS Sync Completed. Reports found: 39, Reports grabbed: 0

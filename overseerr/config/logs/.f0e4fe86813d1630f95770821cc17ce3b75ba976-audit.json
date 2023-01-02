@@ -9,6 +9,11 @@
             "date": 1672585452520,
             "name": "/config/logs/overseerr-2023-01-01.log",
             "hash": "a8738f076f83ff96addec3c7ab5333139ac837ed63237bc5c3542811033ebff1"
+        },
+        {
+            "date": 1672649484671,
+            "name": "/config/logs/overseerr-2023-01-02.log",
+            "hash": "35dac8b4c4a9e8b7d445b5093dba372bb9e1e9f39091ce5d989795e9e3b91a80"
         }
     ],
     "hashType": "sha256"

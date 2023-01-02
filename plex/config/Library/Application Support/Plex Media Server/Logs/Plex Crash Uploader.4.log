@@ -1,4 +1,4 @@
-Jan 01, 2023 16:04:13.971 [0x7f87984d6b38] INFO - Crash Uploader - Platform: Linux ServerUUID: fb685177d8f6bb83de49fedfebd2ed47642b5881 UserId: NOUSERID Version: 1.30.0.6486-629d58034
-Jan 01, 2023 16:04:13.971 [0x7f87984d6b38] DEBUG - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.30.0.6486-629d58034
-Jan 01, 2023 16:04:13.971 [0x7f87984d6b38] DEBUG - Post-processed minidump directory: /tmp
-Jan 01, 2023 16:04:13.971 [0x7f879a17b808] ERROR - Too many crashdumps detected / retries disallowed!
+Jan 02, 2023 11:09:37.008 [0x7f610b5aeb38] INFO - Crash Uploader - Platform: Linux ServerUUID: fb685177d8f6bb83de49fedfebd2ed47642b5881 UserId: maxime.laopro@gmail.com Version: 1.30.0.6486-629d58034
+Jan 02, 2023 11:09:37.008 [0x7f610b5aeb38] DEBUG - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.30.0.6486-629d58034
+Jan 02, 2023 11:09:37.008 [0x7f610b5aeb38] DEBUG - Post-processed minidump directory: /tmp
+Jan 02, 2023 11:09:37.008 [0x7f610d253808] ERROR - Too many crashdumps detected / retries disallowed!
